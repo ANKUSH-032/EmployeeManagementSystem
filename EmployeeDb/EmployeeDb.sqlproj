@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>EmployeeDb</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{42068ea9-2fb2-4029-b41f-c7f899cfda9d}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>EmployeeDb</RootNamespace>
+    <AssemblyName>EmployeeDb</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="Security\" />
+    <Folder Include="dbo\Stored Procedures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\tblMasterTypeOfEmployee.sql" />
+    <Build Include="dbo\Tables\tblMasterState.sql" />
+    <Build Include="dbo\Tables\tblMasterQualification.sql" />
+    <Build Include="dbo\Tables\tblMasterPincode.sql" />
+    <Build Include="dbo\Tables\tblEmployeeSalary.sql" />
+    <Build Include="dbo\Tables\tblEmployee.sql" />
+    <Build Include="dbo\Tables\tblDeductionSalary.sql" />
+    <Build Include="dbo\Tables\tblAttendence.sql" />
+    <Build Include="dbo\Tables\tblAllowances.sql" />
+    <Build Include="Security\Ankush.sql" />
+    <Build Include="Security\RoleMemberships.sql" />
+    <Build Include="dbo\Stored Procedures\uspSalaryInsert.sql" />
+    <Build Include="dbo\Stored Procedures\uspLoginOrLogoutDelete.sql" />
+    <Build Include="dbo\Stored Procedures\uspLoginOrLogout.sql" />
+    <Build Include="dbo\Stored Procedures\uspLogInLogOutGetDetails.sql" />
+    <Build Include="dbo\Stored Procedures\uspEmployeeUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\uspEmployeeSalaryGetDetails.sql" />
+    <Build Include="dbo\Stored Procedures\uspEmployeeList.sql" />
+    <Build Include="dbo\Stored Procedures\uspEmployeeInsert.sql" />
+    <Build Include="dbo\Stored Procedures\uspEmployeeDelete.sql" />
+    <Build Include="dbo\Stored Procedures\uspDeductionUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\uspDeductionList.sql" />
+    <Build Include="dbo\Stored Procedures\uspDeductionInsert.sql" />
+    <Build Include="dbo\Stored Procedures\uspDeductionDelete.sql" />
+    <Build Include="dbo\Stored Procedures\uspDeducationGetDetails.sql" />
+    <Build Include="dbo\Stored Procedures\uspAttendenceReportList.sql" />
+    <Build Include="dbo\Stored Procedures\uspAllowanceUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\uspAllowanceList.sql" />
+    <Build Include="dbo\Stored Procedures\uspAllowanceInsert.sql" />
+    <Build Include="dbo\Stored Procedures\uspAllowanceGetDetails.sql" />
+    <Build Include="dbo\Stored Procedures\uspAllowanceDelete.sql" />
+    <Build Include="dbo\Tables\tblUsers.sql" />
+    <Build Include="dbo\Tables\tblModuleMapping.sql" />
+    <Build Include="dbo\Tables\tblMasterRole.sql" />
+    <Build Include="dbo\Tables\tblDefaultRoleAccess.sql" />
+    <Build Include="dbo\Stored Procedures\uspUserUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\uspUserInsert.sql" />
+    <Build Include="dbo\Stored Procedures\uspUserGetList.sql" />
+    <Build Include="dbo\Stored Procedures\uspUserGetDetails.sql" />
+    <Build Include="dbo\Stored Procedures\uspUserDelete.sql" />
+    <Build Include="dbo\Stored Procedures\uspUserCreatePassword.sql" />
+    <Build Include="dbo\Stored Procedures\uspUserCreatePassValidatorAdd.sql" />
+    <Build Include="dbo\Tables\tblUserForgetValidator.sql" />
+    <Build Include="dbo\Tables\tblUserCreatePassValidator.sql" />
+    <Build Include="dbo\Tables\tblUserActivityLog.sql" />
+    <Build Include="dbo\Tables\tblModule.sql" />
+    <Build Include="dbo\Tables\tblErrorLog.sql" />
+    <Build Include="dbo\Tables\tblEmailTemplateMaster.sql" />
+    <Build Include="dbo\Stored Procedures\uspUsertblCreatePassValidatorChecker.sql" />
+    <Build Include="dbo\Stored Procedures\uspUserSave.sql" />
+    <Build Include="dbo\Stored Procedures\uspUserResetPassword.sql" />
+    <Build Include="dbo\Stored Procedures\uspUserPermissionsSave.sql" />
+    <Build Include="dbo\Stored Procedures\uspUserPermissionsGet.sql" />
+    <Build Include="dbo\Stored Procedures\uspUserForgetValidatorChecker.sql" />
+    <Build Include="dbo\Stored Procedures\uspUserForgetValidatorAdd.sql" />
+    <Build Include="dbo\Stored Procedures\uspUserDetailsGet.sql" />
+    <Build Include="dbo\Stored Procedures\uspUserActivityLogInsert.sql" />
+    <Build Include="dbo\Stored Procedures\uspErrorLogInsert.sql" />
+    <Build Include="dbo\Stored Procedures\uspEmployeeGetDetails.sql" />
+    <Build Include="dbo\Stored Procedures\uspEmailTemplateContentList.sql" />
+    <Build Include="dbo\Stored Procedures\uspCheckValidEmail.sql" />
+    <Build Include="dbo\Tables\tblMasterLeaveType.sql" />
+    <Build Include="dbo\Tables\tblMasterLeaveStatusType.sql" />
+    <Build Include="dbo\Tables\tblLeave.sql" />
+    <Build Include="dbo\Stored Procedures\uspLeaveUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\uspLeaveList.sql" />
+    <Build Include="dbo\Stored Procedures\uspLeaveInsert.sql" />
+    <Build Include="dbo\Stored Procedures\uspLeaveGetDetails.sql" />
+    <Build Include="dbo\Stored Procedures\uspLeaveDelete.sql" />
+  </ItemGroup>
+</Project>

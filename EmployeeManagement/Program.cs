@@ -1,0 +1,181 @@
+using Core.Interface;
+using Core.Interface.Helper;
+using Core.Model;
+using CORE.Interface;
+using CrudOperations;
+using DinkToPdf;
+using DinkToPdf.Contracts;
+using EmployeeGeneric.Helper;
+using Infrastructure.Repositories;
+using Infrastructure.Repositories.Helper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
+using ServiceStack;
+
+using System.Text;
+using System.Text.Json;
+
+var builder = WebApplication.CreateBuilder(args);
+// Add services to the container.
+
+
+
+builder.Services.AddSingleton(typeof(IConverter),
+    new SynchronizedConverter(new PdfTools()));
+
+
+builder.Services.AddControllers(config =>
+{
+    config.Filters.Add(new ValidationFilter());
+}).AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
+});
+
+//builder.Services.AddControllers(config =>
+//{
+//config.Filters.Add(new ValidationFilter());
+//}).AddJsonOptions(options =>
+//{
+//options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
+//});
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CorsPolicy",
+    options =>
+    {
+        options.WithOrigins(builder.Configuration.GetSection("APICallerURL").Get<string>()).AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+    });
+});
+
+#region JWT Authentication
+var secretKey = builder.Configuration.GetSection("AppSettings:Secret").Value;
+var key = Encoding.ASCII.GetBytes(secretKey);
+builder.Services.AddAuthentication(x =>
+{
+    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(x =>
+{
+    x.Events = new JwtBearerEvents
+    {
+        OnTokenValidated = context =>
+        {
+            var userId = context?.Principal?.Identity?.Name;
+
+            var user = Authenticates.GetUserDetails<User>(UserId: userId);
+
+            if (user == null)
+            {
+                // return unauthorized if user no longer exists
+                context?.Fail("Unauthorized");
+            }
+            return Task.CompletedTask;
+        }
+    };
+    x.RequireHttpsMetadata = false;
+    x.SaveToken = true;
+    x.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+       IssuerSigningKey = new SymmetricSecurityKey(key),
+        ValidateIssuer = false,
+        ValidateAudience = false,
+        ClockSkew = TimeSpan.Zero
+    };
+});
+#endregion
+
+/// <summary>
+/// Add JWT Token
+/// </summary>
+/// <returns></returns>
+
+builder.Services.AddDataProtection();
+
+builder.Services.AddSwaggerGen(setup =>
+{
+    setup.EnableAnnotations();
+    setup.SwaggerDoc("v1", new OpenApiInfo { Title = "EmployeeManagement.API", Version = "v1" });
+
+    var jwtSecurityScheme = new OpenApiSecurityScheme
+    {
+        Scheme = "bearer",
+        BearerFormat = "JWT",
+        Name = "JWT Authentication",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.Http,
+        Description = "Put **_ONLY_** your JWT Bearer token on textbox below!",
+        Reference = new OpenApiReference
+        {
+            Id = JwtBearerDefaults.AuthenticationScheme,
+            Type = ReferenceType.SecurityScheme
+        }
+    };
+
+    setup.AddSecurityDefinition(jwtSecurityScheme.Reference.Id, jwtSecurityScheme);
+    setup.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                {
+                        jwtSecurityScheme, Array.Empty<string>() }
+                });
+});
+
+
+
+/// <summary>
+/// Add Controller 
+/// </summary>
+/// <returns></returns>
+
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<ValidationFilter>();
+builder.Services.AddScoped<ICrudOperationService>(x => new DataAccess(builder.Configuration, builder.Configuration["ConnectionStrings:DataAccessConnection"]));
+builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddScoped<IAttendanceReportRepository, AttendanceReportRepository>();
+builder.Services.AddScoped<IDeductionRepository, DeductionRepository>();
+builder.Services.AddScoped<IAllowanceRepository, AllowanceRepository>();
+builder.Services.AddScoped<IEmployeeSalaryRepository, EmployeeSalaryRepository>();
+builder.Services.AddScoped<IUserRepositroy, UserRepositroy>();
+builder.Services.AddScoped<IDataProtectionRepository, DataProtectionRepository>();
+builder.Services.AddScoped<ILeaveRepository, LeaveRepository>();
+builder.Services.AddScoped<IQRGaneraterRepository, QRGaneraterRepository>();
+
+
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "StatWatch v1"));
+}
+
+
+
+
+/// <summary>
+/// Use Authentication and Authorization for Authoriz the APi
+/// </summary>
+/// <returns></returns>
+///
+//app.UseStaticFiles();
+//app.UseHttpsRedirection();
+
+//app.UseCors("CorsPolicy");
+//app.UseRouting();
+
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.MapControllers();
+app.Run();
+

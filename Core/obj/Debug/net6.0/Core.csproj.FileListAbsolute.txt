@@ -1,0 +1,30 @@
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\Core\bin\Debug\net6.0\Core.deps.json
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\Core\bin\Debug\net6.0\Core.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\Core\bin\Debug\net6.0\Core.pdb
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\Core\bin\Debug\net6.0\CrudOperations.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\Core\obj\Debug\net6.0\Core.csproj.CopyComplete
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\Core\obj\Debug\net6.0\Core.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\Core\obj\Debug\net6.0\refint\Core.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\Core\obj\Debug\net6.0\Core.pdb
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\Core\obj\Debug\net6.0\ref\Core.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\Core\bin\Debug\net6.0\CORE.deps.json
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\Core\bin\Debug\net6.0\CORE.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\Core\bin\Debug\net6.0\CORE.pdb
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\Core\bin\Debug\net6.0\CrudOperations ().dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\Core\bin\Debug\net6.0\EmployeeGeneric.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\Core\bin\Debug\net6.0\EmployeeGeneric.pdb
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\Core\obj\Debug\net6.0\CORE.csproj.AssemblyReference.cache
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\Core\obj\Debug\net6.0\CORE.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\Core\obj\Debug\net6.0\CORE.AssemblyInfoInputs.cache
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\Core\obj\Debug\net6.0\CORE.AssemblyInfo.cs
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\Core\obj\Debug\net6.0\CORE.csproj.CoreCompileInputs.cache
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\Core\obj\Debug\net6.0\CORE.csproj.CopyComplete
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\Core\obj\Debug\net6.0\CORE.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\Core\obj\Debug\net6.0\refint\CORE.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\Core\obj\Debug\net6.0\CORE.pdb
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\Core\obj\Debug\net6.0\ref\CORE.dll

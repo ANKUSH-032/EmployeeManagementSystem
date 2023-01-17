@@ -1,0 +1,308 @@
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\TraceReloggerLib.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Dia2Lib.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\OSExtensions.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\appsettings.Development.json
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\appsettings.json
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\x86\KernelTraceControl.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\x86\KernelTraceControl.Win61.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\x86\msdia140.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\x86\msvcp140.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\x86\vcruntime140.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\amd64\KernelTraceControl.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\amd64\msdia140.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\amd64\msvcp140.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\amd64\vcruntime140.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\amd64\vcruntime140_1.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\arm64\KernelTraceControl.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\arm64\msdia140.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\arm64\msvcp140.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\arm64\vcruntime140.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\arm64\vcruntime140_1.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\EmployeeManagement.exe
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\EmployeeManagement.deps.json
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\EmployeeManagement.runtimeconfig.json
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\EmployeeManagement.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\EmployeeManagement.pdb
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\BenchmarkDotNet.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\BenchmarkDotNet.Annotations.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\CommandLine.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Dapper.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\FluentAssertions.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Iced.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\System.Web.Http.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Microsoft.Diagnostics.NETCore.Client.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Microsoft.Diagnostics.Runtime.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Microsoft.Diagnostics.FastSerialization.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Microsoft.Diagnostics.Tracing.TraceEvent.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Perfolizer.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Prometheus.NetStandard.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Swashbuckle.Core.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\System.CodeDom.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\System.Data.SqlClient.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\System.IO.Packaging.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\System.Management.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Management.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Core.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\CrudOperations.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Infrastructure.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Core.pdb
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\bin\Debug\net6.0\Infrastructure.pdb
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.csproj.AssemblyReference.cache
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.GeneratedMSBuildEditorConfig.editorconfig
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.AssemblyInfoInputs.cache
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.AssemblyInfo.cs
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.csproj.CoreCompileInputs.cache
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.MvcApplicationPartsAssemblyInfo.cs
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.MvcApplicationPartsAssemblyInfo.cache
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\obj\Debug\net6.0\staticwebassets.build.json
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\obj\Debug\net6.0\staticwebassets.development.json
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\obj\Debug\net6.0\scopedcss\bundle\EmployeeManagement.styles.css
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.csproj.CopyComplete
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\obj\Debug\net6.0\refint\EmployeeManagement.dll
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.pdb
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.genruntimeconfig.cache
+E:\OSP PROJECT\EmployeeManagement\EmployeeTask\EmployeeManagement\EmployeeManagement\obj\Debug\net6.0\ref\EmployeeManagement.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\TraceReloggerLib.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Dia2Lib.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\OSExtensions.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\appsettings.Development.json
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\appsettings.json
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\EmployeeManagement.staticwebassets.runtime.json
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\x86\KernelTraceControl.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\x86\KernelTraceControl.Win61.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\x86\msdia140.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\x86\msvcp140.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\x86\vcruntime140.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\amd64\KernelTraceControl.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\amd64\msdia140.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\amd64\msvcp140.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\amd64\vcruntime140.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\amd64\vcruntime140_1.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\arm64\KernelTraceControl.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\arm64\msdia140.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\arm64\msvcp140.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\arm64\vcruntime140.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\arm64\vcruntime140_1.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\EmployeeManagement.exe
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\EmployeeManagement.deps.json
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\EmployeeManagement.runtimeconfig.json
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\EmployeeManagement.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\EmployeeManagement.pdb
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\AWSSDK.Core.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\AWSSDK.S3.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Azure.Core.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\DevOne.Security.Cryptography.BCrypt.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\BCrypt.Net-Core.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\BCrypt.Net-Next.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\BenchmarkDotNet.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\BenchmarkDotNet.Annotations.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Castle.Core.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\CommandLine.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Dapper.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\DinkToPdf.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\EPPlus.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\EPPlus.Interfaces.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\FakeItEasy.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\FluentAssertions.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\HtmlAgilityPack.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\HtmlToPdfConverter.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Iced.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\itextsharp.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\itextsharp.xmlworker.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\MassTransit.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\MassTransit.Abstractions.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.Web.Mvc.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.Web.Razor.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.Web.Http.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.Web.Helpers.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.Web.WebPages.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Azure.WebJobs.Host.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Azure.WebJobs.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Threading.Tasks.Extensions.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Threading.Tasks.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Diagnostics.NETCore.Client.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Diagnostics.Runtime.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Diagnostics.FastSerialization.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Diagnostics.Tracing.TraceEvent.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Graph.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Graph.Core.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.OpenApi.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Newtonsoft.Json.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Perfolizer.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Prometheus.NetStandard.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Gma.QrCodeNet.Encoding.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\QRCoder.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\ServiceStack.Client.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\ServiceStack.Interfaces.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\ServiceStack.Text.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Swashbuckle.Core.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.CodeDom.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.Data.SqlClient.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.Drawing.Common.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.IO.Packaging.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.Management.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.Memory.Data.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.Security.Permissions.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.Text.Json.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.Windows.Extensions.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Wodsoft.DotNet40.Runtime.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Management.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\CORE.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\CrudOperations.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\EmployeeGeneric.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Infrastructure.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\CORE.pdb
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\Infrastructure.pdb
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\EmployeeGeneric.pdb
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.csproj.AssemblyReference.cache
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.AssemblyInfoInputs.cache
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.AssemblyInfo.cs
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.csproj.CoreCompileInputs.cache
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.MvcApplicationPartsAssemblyInfo.cs
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.MvcApplicationPartsAssemblyInfo.cache
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\obj\Debug\net6.0\staticwebassets.build.json
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\obj\Debug\net6.0\staticwebassets.development.json
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\obj\Debug\net6.0\scopedcss\bundle\EmployeeManagement.styles.css
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.csproj.CopyComplete
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\obj\Debug\net6.0\refint\EmployeeManagement.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.pdb
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.genruntimeconfig.cache
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\obj\Debug\net6.0\ref\EmployeeManagement.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\App.Metrics.Abstractions.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\App.Metrics.Concurrency.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\App.Metrics.Core.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\App.Metrics.Formatters.Ascii.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\App.Metrics.Formatters.Prometheus.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\protobuf-net.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.ServiceModel.Primitives.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\System.ServiceModel.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeManagement\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Private.ServiceModel.dll

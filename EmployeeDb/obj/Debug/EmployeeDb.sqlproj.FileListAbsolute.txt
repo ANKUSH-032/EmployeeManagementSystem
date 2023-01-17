@@ -1,0 +1,8 @@
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeDb\bin\Debug\EmployeeDb.dacpac
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeDb\obj\Debug\EmployeeDb.sqlproj.AssemblyReference.cache
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeDb\obj\Debug\Model.xml
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeDb\obj\Debug\refactor.xml
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeDb\obj\Debug\postdeploy.sql
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeDb\obj\Debug\predeploy.sql
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeDb\obj\Debug\EmployeeDb.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeDb\obj\Debug\EmployeeDb.pdb

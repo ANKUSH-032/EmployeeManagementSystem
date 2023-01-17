@@ -1,0 +1,12 @@
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeGeneric\bin\Debug\net6.0\EmployeeGeneric.deps.json
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeGeneric\bin\Debug\net6.0\EmployeeGeneric.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeGeneric\bin\Debug\net6.0\EmployeeGeneric.pdb
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeGeneric\obj\Debug\net6.0\EmployeeGeneric.csproj.AssemblyReference.cache
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeGeneric\obj\Debug\net6.0\EmployeeGeneric.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeGeneric\obj\Debug\net6.0\EmployeeGeneric.AssemblyInfoInputs.cache
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeGeneric\obj\Debug\net6.0\EmployeeGeneric.AssemblyInfo.cs
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeGeneric\obj\Debug\net6.0\EmployeeGeneric.csproj.CoreCompileInputs.cache
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeGeneric\obj\Debug\net6.0\EmployeeGeneric.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeGeneric\obj\Debug\net6.0\refint\EmployeeGeneric.dll
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeGeneric\obj\Debug\net6.0\EmployeeGeneric.pdb
+F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeGeneric\obj\Debug\net6.0\ref\EmployeeGeneric.dll
