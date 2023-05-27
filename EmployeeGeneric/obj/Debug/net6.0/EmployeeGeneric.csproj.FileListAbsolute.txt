@@ -10,3 +10,15 @@ F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeGeneric\obj\Debug\ne
 F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeGeneric\obj\Debug\net6.0\refint\EmployeeGeneric.dll
 F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeGeneric\obj\Debug\net6.0\EmployeeGeneric.pdb
 F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeGeneric\obj\Debug\net6.0\ref\EmployeeGeneric.dll
+F:\C#Project\EMP_API\EmployeeGeneric\bin\Debug\net6.0\EmployeeGeneric.deps.json
+F:\C#Project\EMP_API\EmployeeGeneric\bin\Debug\net6.0\EmployeeGeneric.dll
+F:\C#Project\EMP_API\EmployeeGeneric\bin\Debug\net6.0\EmployeeGeneric.pdb
+F:\C#Project\EMP_API\EmployeeGeneric\obj\Debug\net6.0\EmployeeGeneric.csproj.AssemblyReference.cache
+F:\C#Project\EMP_API\EmployeeGeneric\obj\Debug\net6.0\EmployeeGeneric.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#Project\EMP_API\EmployeeGeneric\obj\Debug\net6.0\EmployeeGeneric.AssemblyInfoInputs.cache
+F:\C#Project\EMP_API\EmployeeGeneric\obj\Debug\net6.0\EmployeeGeneric.AssemblyInfo.cs
+F:\C#Project\EMP_API\EmployeeGeneric\obj\Debug\net6.0\EmployeeGeneric.csproj.CoreCompileInputs.cache
+F:\C#Project\EMP_API\EmployeeGeneric\obj\Debug\net6.0\EmployeeGeneric.dll
+F:\C#Project\EMP_API\EmployeeGeneric\obj\Debug\net6.0\refint\EmployeeGeneric.dll
+F:\C#Project\EMP_API\EmployeeGeneric\obj\Debug\net6.0\EmployeeGeneric.pdb
+F:\C#Project\EMP_API\EmployeeGeneric\obj\Debug\net6.0\ref\EmployeeGeneric.dll

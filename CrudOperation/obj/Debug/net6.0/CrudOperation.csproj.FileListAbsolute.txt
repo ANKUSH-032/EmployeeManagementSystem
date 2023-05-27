@@ -1,0 +1,12 @@
+F:\C#Project\EMP_API\CrudOperation\bin\Debug\net6.0\CrudOperation.deps.json
+F:\C#Project\EMP_API\CrudOperation\bin\Debug\net6.0\CrudOperation.dll
+F:\C#Project\EMP_API\CrudOperation\bin\Debug\net6.0\CrudOperation.pdb
+F:\C#Project\EMP_API\CrudOperation\obj\Debug\net6.0\CrudOperation.csproj.AssemblyReference.cache
+F:\C#Project\EMP_API\CrudOperation\obj\Debug\net6.0\CrudOperation.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#Project\EMP_API\CrudOperation\obj\Debug\net6.0\CrudOperation.AssemblyInfoInputs.cache
+F:\C#Project\EMP_API\CrudOperation\obj\Debug\net6.0\CrudOperation.AssemblyInfo.cs
+F:\C#Project\EMP_API\CrudOperation\obj\Debug\net6.0\CrudOperation.csproj.CoreCompileInputs.cache
+F:\C#Project\EMP_API\CrudOperation\obj\Debug\net6.0\CrudOperation.dll
+F:\C#Project\EMP_API\CrudOperation\obj\Debug\net6.0\refint\CrudOperation.dll
+F:\C#Project\EMP_API\CrudOperation\obj\Debug\net6.0\CrudOperation.pdb
+F:\C#Project\EMP_API\CrudOperation\obj\Debug\net6.0\ref\CrudOperation.dll

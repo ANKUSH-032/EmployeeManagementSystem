@@ -1,5 +1,5 @@
 ﻿using Core.Model;
-using CrudOperations;
+using CrudOperation;
 using System;
 using System.Collections.Generic;
 using System.Linq;

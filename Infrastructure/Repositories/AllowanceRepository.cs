@@ -1,7 +1,7 @@
 ﻿using Core.Comman;
 using Core.Interface;
 using Core.Model;
-using CrudOperations;
+using CrudOperation;
 using System;
 using System.Collections.Generic;
 using System.Data;

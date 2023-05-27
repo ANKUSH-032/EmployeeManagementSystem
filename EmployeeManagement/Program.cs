@@ -2,28 +2,40 @@ using Core.Interface;
 using Core.Interface.Helper;
 using Core.Model;
 using CORE.Interface;
+using CrudOperation;
 using CrudOperations;
 using DinkToPdf;
 using DinkToPdf.Contracts;
 using EmployeeGeneric.Helper;
 using Infrastructure.Repositories;
 using Infrastructure.Repositories.Helper;
+using log4net.Config;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using ServiceStack;
-
+using Microsoft.Extensions.Logging;
 using System.Text;
 using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
-
-
+#pragma warning disable
 
 builder.Services.AddSingleton(typeof(IConverter),
     new SynchronizedConverter(new PdfTools()));
+
+builder.Services.AddLogging(loggingBuilder =>
+{
+    // Configure Log4Net
+    log4net.Config.XmlConfigurator.Configure();
+    XmlConfigurator.Configure(new FileInfo("log4net.config"));
+
+    // Add Log4Net as the logging provider
+    loggingBuilder.AddLog4Net();
+});
+
 
 
 builder.Services.AddControllers(config =>
@@ -137,7 +149,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ValidationFilter>();
-builder.Services.AddScoped<ICrudOperationService>(x => new DataAccess(builder.Configuration, builder.Configuration["ConnectionStrings:DataAccessConnection"]));
+builder.Services.AddScoped<CrudOperation.ICrudOperationService>(x => new CrudOperationDataAccess(x.GetService<IConfiguration>(), builder.Configuration["ConnectionStrings:DataAccessConnection"]));
+//builder.Services.AddScoped<ICrudOperationService>(x => new DataAccess(builder.Configuration, builder.Configuration["ConnectionStrings:DataAccessConnection"]));
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddScoped<IAttendanceReportRepository, AttendanceReportRepository>();
 builder.Services.AddScoped<IDeductionRepository, DeductionRepository>();
@@ -147,8 +160,6 @@ builder.Services.AddScoped<IUserRepositroy, UserRepositroy>();
 builder.Services.AddScoped<IDataProtectionRepository, DataProtectionRepository>();
 builder.Services.AddScoped<ILeaveRepository, LeaveRepository>();
 builder.Services.AddScoped<IQRGaneraterRepository, QRGaneraterRepository>();
-
-
 
 var app = builder.Build();
 

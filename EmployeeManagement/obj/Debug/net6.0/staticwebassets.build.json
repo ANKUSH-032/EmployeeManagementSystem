@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qU0RpVGsEhq65/O7lu2B2klFhDlno04ftx/TlhzHMMI=",
+  "Hash": "haIqB9SnqOkGfXl2aLfa/ZW1ul8csk7JuW/98wdpFGw=",
   "Source": "EmployeeManagement",
   "BasePath": "_content/EmployeeManagement",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "EmployeeManagement\\wwwroot",
       "Source": "EmployeeManagement",
-      "ContentRoot": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeManagement\\wwwroot\\",
+      "ContentRoot": "F:\\C#Project\\EMP_API\\EmployeeManagement\\wwwroot\\",
       "BasePath": "_content/EmployeeManagement",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeManagement\\wwwroot\\UploadPhoto\\SampleJPGImage.jpg",
+      "Identity": "F:\\C#Project\\EMP_API\\EmployeeManagement\\wwwroot\\UploadPhoto\\SampleJPGImage.jpg",
       "SourceId": "EmployeeManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeManagement\\wwwroot\\",
+      "ContentRoot": "F:\\C#Project\\EMP_API\\EmployeeManagement\\wwwroot\\",
       "BasePath": "_content/EmployeeManagement",
       "RelativePath": "UploadPhoto/SampleJPGImage.jpg",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\UploadPhoto\\SampleJPGImage.jpg"
     },
     {
-      "Identity": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeManagement\\wwwroot\\UploadPhoto\\SampleJPGImage_1mbmb.jpg",
+      "Identity": "F:\\C#Project\\EMP_API\\EmployeeManagement\\wwwroot\\UploadPhoto\\SampleJPGImage_1mbmb.jpg",
       "SourceId": "EmployeeManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeManagement\\wwwroot\\",
+      "ContentRoot": "F:\\C#Project\\EMP_API\\EmployeeManagement\\wwwroot\\",
       "BasePath": "_content/EmployeeManagement",
       "RelativePath": "UploadPhoto/SampleJPGImage_1mbmb.jpg",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\UploadPhoto\\SampleJPGImage_1mbmb.jpg"
     },
     {
-      "Identity": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeManagement\\wwwroot\\UploadSign\\SampleJPGImage.jpg",
+      "Identity": "F:\\C#Project\\EMP_API\\EmployeeManagement\\wwwroot\\UploadSign\\SampleJPGImage.jpg",
       "SourceId": "EmployeeManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeManagement\\wwwroot\\",
+      "ContentRoot": "F:\\C#Project\\EMP_API\\EmployeeManagement\\wwwroot\\",
       "BasePath": "_content/EmployeeManagement",
       "RelativePath": "UploadSign/SampleJPGImage.jpg",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\UploadSign\\SampleJPGImage.jpg"
     },
     {
-      "Identity": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeManagement\\wwwroot\\UploadSign\\SampleJPGImage_1mbmb.jpg",
+      "Identity": "F:\\C#Project\\EMP_API\\EmployeeManagement\\wwwroot\\UploadSign\\SampleJPGImage_1mbmb.jpg",
       "SourceId": "EmployeeManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeManagement\\wwwroot\\",
+      "ContentRoot": "F:\\C#Project\\EMP_API\\EmployeeManagement\\wwwroot\\",
       "BasePath": "_content/EmployeeManagement",
       "RelativePath": "UploadSign/SampleJPGImage_1mbmb.jpg",
       "AssetKind": "All",

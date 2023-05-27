@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeManagement\\EmployeeManagement.csproj": {}
+    "F:\\C#Project\\EMP_API\\EmployeeManagement\\EmployeeManagement.csproj": {}
   },
   "projects": {
-    "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\Core\\CORE.csproj": {
+    "F:\\C#Project\\EMP_API\\Core\\CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\Core\\CORE.csproj",
+        "projectUniqueName": "F:\\C#Project\\EMP_API\\Core\\CORE.csproj",
         "projectName": "CORE",
-        "projectPath": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\Core\\CORE.csproj",
-        "packagesPath": "C:\\Users\\Ankush Dubey\\.nuget\\packages\\",
-        "outputPath": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\Core\\obj\\",
+        "projectPath": "F:\\C#Project\\EMP_API\\Core\\CORE.csproj",
+        "packagesPath": "C:\\Users\\ANKUSH\\.nuget\\packages\\",
+        "outputPath": "F:\\C#Project\\EMP_API\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ankush Dubey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ANKUSH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeGeneric\\EmployeeGeneric.csproj": {
-                "projectPath": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeGeneric\\EmployeeGeneric.csproj"
+              "F:\\C#Project\\EMP_API\\CrudOperation\\CrudOperation.csproj": {
+                "projectPath": "F:\\C#Project\\EMP_API\\CrudOperation\\CrudOperation.csproj"
+              },
+              "F:\\C#Project\\EMP_API\\EmployeeGeneric\\EmployeeGeneric.csproj": {
+                "projectPath": "F:\\C#Project\\EMP_API\\EmployeeGeneric\\EmployeeGeneric.csproj"
               }
             }
           }
@@ -119,7 +122,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -128,21 +132,90 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeGeneric\\EmployeeGeneric.csproj": {
+    "F:\\C#Project\\EMP_API\\CrudOperation\\CrudOperation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeGeneric\\EmployeeGeneric.csproj",
-        "projectName": "EmployeeGeneric",
-        "projectPath": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeGeneric\\EmployeeGeneric.csproj",
-        "packagesPath": "C:\\Users\\Ankush Dubey\\.nuget\\packages\\",
-        "outputPath": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeGeneric\\obj\\",
+        "projectUniqueName": "F:\\C#Project\\EMP_API\\CrudOperation\\CrudOperation.csproj",
+        "projectName": "CrudOperation",
+        "projectPath": "F:\\C#Project\\EMP_API\\CrudOperation\\CrudOperation.csproj",
+        "packagesPath": "C:\\Users\\ANKUSH\\.nuget\\packages\\",
+        "outputPath": "F:\\C#Project\\EMP_API\\CrudOperation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ankush Dubey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ANKUSH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\C#Project\\EMP_API\\EmployeeGeneric\\EmployeeGeneric.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\C#Project\\EMP_API\\EmployeeGeneric\\EmployeeGeneric.csproj",
+        "projectName": "EmployeeGeneric",
+        "projectPath": "F:\\C#Project\\EMP_API\\EmployeeGeneric\\EmployeeGeneric.csproj",
+        "packagesPath": "C:\\Users\\ANKUSH\\.nuget\\packages\\",
+        "outputPath": "F:\\C#Project\\EMP_API\\EmployeeGeneric\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ANKUSH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -291,7 +364,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -300,21 +374,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeManagement\\EmployeeManagement.csproj": {
+    "F:\\C#Project\\EMP_API\\EmployeeManagement\\EmployeeManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeManagement\\EmployeeManagement.csproj",
+        "projectUniqueName": "F:\\C#Project\\EMP_API\\EmployeeManagement\\EmployeeManagement.csproj",
         "projectName": "EmployeeManagement",
-        "projectPath": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeManagement\\EmployeeManagement.csproj",
-        "packagesPath": "C:\\Users\\Ankush Dubey\\.nuget\\packages\\",
-        "outputPath": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeManagement\\obj\\",
+        "projectPath": "F:\\C#Project\\EMP_API\\EmployeeManagement\\EmployeeManagement.csproj",
+        "packagesPath": "C:\\Users\\ANKUSH\\.nuget\\packages\\",
+        "outputPath": "F:\\C#Project\\EMP_API\\EmployeeManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ankush Dubey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ANKUSH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -328,11 +402,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\Core\\CORE.csproj": {
-                "projectPath": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\Core\\CORE.csproj"
+              "F:\\C#Project\\EMP_API\\Core\\CORE.csproj": {
+                "projectPath": "F:\\C#Project\\EMP_API\\Core\\CORE.csproj"
               },
-              "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\Infrastructure\\Infrastructure.csproj"
+              "F:\\C#Project\\EMP_API\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "F:\\C#Project\\EMP_API\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -423,6 +497,22 @@
               "target": "Package",
               "version": "[6.0.1, )"
             },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
             "QRCoder": {
               "target": "Package",
               "version": "[1.4.2, )"
@@ -430,6 +520,10 @@
             "QrCode.Net": {
               "target": "Package",
               "version": "[0.4.0, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             },
             "ServiceStack.Client": {
               "target": "Package",
@@ -471,6 +565,10 @@
               "target": "Package",
               "version": "[1.1.2, )"
             },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            },
             "prometheus-net": {
               "target": "Package",
               "version": "[7.1.0-pre-000318-0479f53, )"
@@ -482,7 +580,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -494,21 +593,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\Infrastructure\\Infrastructure.csproj": {
+    "F:\\C#Project\\EMP_API\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "F:\\C#Project\\EMP_API\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Ankush Dubey\\.nuget\\packages\\",
-        "outputPath": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\Infrastructure\\obj\\",
+        "projectPath": "F:\\C#Project\\EMP_API\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ANKUSH\\.nuget\\packages\\",
+        "outputPath": "F:\\C#Project\\EMP_API\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ankush Dubey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ANKUSH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -522,8 +621,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\Core\\CORE.csproj": {
-                "projectPath": "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\Core\\CORE.csproj"
+              "F:\\C#Project\\EMP_API\\Core\\CORE.csproj": {
+                "projectPath": "F:\\C#Project\\EMP_API\\Core\\CORE.csproj"
+              },
+              "F:\\C#Project\\EMP_API\\CrudOperation\\CrudOperation.csproj": {
+                "projectPath": "F:\\C#Project\\EMP_API\\CrudOperation\\CrudOperation.csproj"
               }
             }
           }
@@ -621,7 +723,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -630,7 +733,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

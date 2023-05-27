@@ -30,6 +30,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Core\CORE.csproj" />
+    <ProjectReference Include="..\CrudOperation\CrudOperation.csproj" />
   </ItemGroup>
 
   <ItemGroup>

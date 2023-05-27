@@ -14,29 +14,38 @@ using Core.Comman;
 using System.IdentityModel.Tokens.Jwt;
 using Core.Model;
 using Swashbuckle.AspNetCore.Annotations;
+using log4net;
 
 namespace EmployeeManagement.Controllers
 {
     [ActivityLog]
-    [ Route("api/auth")]
+    [Route("api/auth")]
+#pragma warning disable
     public class AuthController : Controller
     {
+
+
+
         private readonly IConfiguration _configuration;
         private readonly IDataProtectionRepository _dataProtection;
+        //private readonly ILogger<AuthController> _logger;
+        //private static ILog _logger;
 
-        public AuthController(IConfiguration configuration, IDataProtectionRepository dataProtectionRepository)
+        private static readonly ILog _logger = LogManager.GetLogger(typeof(AuthController));
+        public AuthController(IConfiguration configuration, IDataProtectionRepository dataProtectionRepository, ILogger<AuthController> logger)
         {
             _configuration = configuration;
             _dataProtection = dataProtectionRepository;
+            //_logger = logger;
         }
 
-        
+
         [AllowAnonymous, HttpPost("authenticate")]
         public IActionResult Login([FromBody] AuthenticationRequest loginCredentials)
         {
             try
             {
-                
+                //_logger.Info("Login action started");
                 loginCredentials.Email = loginCredentials.Email.ToLower();
                 LoginUser user = Authenticates.Login<LoginUser>(loginCredentials);
 
@@ -71,11 +80,12 @@ namespace EmployeeManagement.Controllers
                     }
 
                 }
-
+                //_logger.Info("Login action completed successfully");
                 return Ok(new { Status = true, Message = "Success", Userdetails = user });
             }
             catch (Exception ex)
             {
+                _logger.Error($"An error occurred in {nameof(Login)} action", ex);
                 Logger.AddErrorLog(ControllerContext.ActionDescriptor.ControllerName, "Login", User.Identity?.Name, ex);
                 return StatusCode(StatusCodes.HTTP_INTERNAL_SERVER_ERROR, MessageHelper.message);
             }
@@ -236,7 +246,7 @@ namespace EmployeeManagement.Controllers
                 ClsResponse response = new()
                 {
                     Status = true,
-                    Message = string.Format(CultureInfo.CurrentCulture,AuthMessage.passwordIsSuccessfullyReset)
+                    Message = string.Format(CultureInfo.CurrentCulture, AuthMessage.passwordIsSuccessfullyReset)
                 };
                 return Ok(response);
             }
@@ -252,7 +262,7 @@ namespace EmployeeManagement.Controllers
         Summary = "Change | Password",
         Description = "This API will allow user to update password into system",
         OperationId = "")]
-        [Authorize,HttpPost, Route("changepassword")]
+        [Authorize, HttpPost, Route("changepassword")]
         public IActionResult ChangePassword([FromBody] ChangePassword changePassword)
         {
             try

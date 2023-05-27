@@ -11,6 +11,7 @@
           "BCrypt": "1.0.0",
           "BCrypt.Net-Core": "1.6.0",
           "BCrypt.Net-Next": "4.0.3",
+          "CrudOperation": "1.0.0",
           "Dapper": "2.0.123",
           "DinkToPdf": "1.0.8",
           "DinkToPdfIncludesDependencies": "1.0.8",
@@ -25,8 +26,7 @@
           "System.Configuration.ConfigurationManager": "7.0.0",
           "System.Linq.Expressions": "4.3.0",
           "System.Security.Cryptography.Cng": "5.0.0",
-          "Wodsoft.Extensions.Configuration.FileExtensions": "1.1.2",
-          "CrudOperations ()": "1.0.0.0"
+          "Wodsoft.Extensions.Configuration.FileExtensions": "1.1.2"
         },
         "runtime": {
           "CORE.dll": {}
@@ -1872,6 +1872,16 @@
           "Wodsoft.DotNet40.Runtime": "1.0.1"
         }
       },
+      "CrudOperation/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.0.123",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "runtime": {
+          "CrudOperation.dll": {}
+        }
+      },
       "EmployeeGeneric/1.0.0": {
         "dependencies": {
           "BCrypt": "1.0.0",
@@ -1906,14 +1916,6 @@
         },
         "runtime": {
           "EmployeeGeneric.dll": {}
-        }
-      },
-      "CrudOperations ()/1.0.0.0": {
-        "runtime": {
-          "CrudOperations ().dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
         }
       }
     }
@@ -3296,13 +3298,13 @@
       "path": "wodsoft.extensions.primitives/1.1.1",
       "hashPath": "wodsoft.extensions.primitives.1.1.1.nupkg.sha512"
     },
-    "EmployeeGeneric/1.0.0": {
+    "CrudOperation/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "CrudOperations ()/1.0.0.0": {
-      "type": "reference",
+    "EmployeeGeneric/1.0.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     }

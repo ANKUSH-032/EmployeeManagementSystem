@@ -6,6 +6,7 @@ using DocumentFormat.OpenXml.Drawing.Diagrams;
 using EmployeeGeneric.Helper;
 using EmployeeGeneric.Utilities;
 using EmployeeManagement.Services;
+using log4net;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -18,12 +19,14 @@ namespace EmployeeManagement.Controllers
 {
     [Route("api/[controller]"), Authorize, ActivityLog]
     [ApiController]
+#pragma warning disable
     public class EmployeeController : ControllerBase
     {
         private readonly ILogger<EmployeeController> _logger;
         private readonly IEmployeeRepository _employeeRepository;
         private readonly IWebHostEnvironment _webHostEnvironment;
         private readonly IHostingEnvironment _hostingEnvironment;
+        private static readonly ILog log = LogManager.GetLogger(typeof(AuthController));
         public EmployeeController(ILogger<EmployeeController> logger, IEmployeeRepository employeeController, IWebHostEnvironment webHostEnvironment, IHostingEnvironment hostingEnvironment)
         {
             _logger = logger;
@@ -74,6 +77,7 @@ namespace EmployeeManagement.Controllers
             }
             catch (Exception ex)
             {
+                log.Error($"An error occurred in {nameof(EmployeeInsert)} action", ex);
                 Logger.AddErrorLog(ControllerContext.ActionDescriptor.ControllerName, "Employee Insert", User.Identity.Name, ex);
                 return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
             }

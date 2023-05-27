@@ -1,6 +1,6 @@
 ﻿using Core.Model;
 using CORE.Interface;
-using CrudOperations;
+using CrudOperation;
 using System;
 using System.Collections.Generic;
 using System.Data;

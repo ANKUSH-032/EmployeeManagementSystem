@@ -29,8 +29,13 @@
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
           "Microsoft.Extensions.Configuration.Json": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "6.0.1",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
+          "Microsoft.Extensions.Logging.Configuration": "6.0.0",
+          "Microsoft.Extensions.Logging.Log4Net.AspNetCore": "6.1.0",
           "QRCoder": "1.4.2",
           "QrCode.Net": "0.4.0",
+          "Serilog.Extensions.Logging.File": "3.0.0",
           "ServiceStack.Client": "6.5.0",
           "Swashbuckle.AspNetCore": "6.4.0",
           "Swashbuckle.AspNetCore.Annotations": "6.4.0",
@@ -41,6 +46,7 @@
           "System.Linq.Expressions": "4.3.0",
           "System.Security.Cryptography.Cng": "5.0.0",
           "Wodsoft.Extensions.Configuration.FileExtensions": "1.1.2",
+          "log4net": "2.0.15",
           "prometheus-net": "7.1.0-pre-000318-0479f53",
           "CrudOperations": "1.0.0.0"
         },
@@ -374,13 +380,24 @@
           }
         }
       },
+      "log4net/2.0.15": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/log4net.dll": {
+            "assemblyVersion": "2.0.15.0",
+            "fileVersion": "2.0.15.0"
+          }
+        }
+      },
       "MassTransit/8.0.9": {
         "dependencies": {
           "MassTransit.Abstractions": "8.0.9",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Diagnostics.HealthChecks": "3.1.18",
           "Microsoft.Extensions.Hosting.Abstractions": "3.1.18",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
           "Microsoft.Extensions.Options": "6.0.0",
           "System.Diagnostics.DiagnosticSource": "6.0.0",
           "System.Reflection.Emit": "4.7.0",
@@ -473,7 +490,7 @@
       "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
           "Microsoft.Extensions.Options": "6.0.0"
         }
       },
@@ -497,7 +514,7 @@
       },
       "Microsoft.AspNetCore.Authorization/2.2.0": {
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
           "Microsoft.Extensions.Options": "6.0.0"
         }
       },
@@ -576,7 +593,7 @@
           "Microsoft.Extensions.DependencyInjection": "6.0.1",
           "Microsoft.Extensions.DependencyModel": "2.1.0",
           "Microsoft.Extensions.FileProviders.Abstractions": "7.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
           "System.Diagnostics.DiagnosticSource": "6.0.0",
           "System.Threading.Tasks.Extensions": "4.5.4"
         }
@@ -590,7 +607,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
           "Microsoft.AspNetCore.Routing.Abstractions": "2.2.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
           "Microsoft.Extensions.ObjectPool": "2.2.0",
           "Microsoft.Extensions.Options": "6.0.0"
         }
@@ -615,8 +632,8 @@
           "Microsoft.Extensions.Configuration.Json": "7.0.0",
           "Microsoft.Extensions.Hosting": "2.1.0",
           "Microsoft.Extensions.Logging": "6.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Logging.Configuration": "2.1.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
+          "Microsoft.Extensions.Logging.Configuration": "6.0.0",
           "Newtonsoft.Json": "11.0.2",
           "System.Memory.Data": "1.0.2",
           "System.Threading.Tasks.Dataflow": "4.8.0"
@@ -869,9 +886,9 @@
           }
         }
       },
-      "Microsoft.Extensions.Configuration.Binder/2.1.0": {
+      "Microsoft.Extensions.Configuration.Binder/6.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "7.0.0"
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
         }
       },
       "Microsoft.Extensions.Configuration.EnvironmentVariables/2.1.0": {
@@ -991,14 +1008,14 @@
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.FileProviders.Abstractions": "7.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0"
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
         }
       },
       "Microsoft.Extensions.Http/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Logging": "6.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
           "Microsoft.Extensions.Options": "6.0.0"
         }
       },
@@ -1006,16 +1023,44 @@
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "6.0.1",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
           "Microsoft.Extensions.Options": "6.0.0",
           "System.Diagnostics.DiagnosticSource": "6.0.0"
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {},
-      "Microsoft.Extensions.Logging.Configuration/2.1.0": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.322.12309"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Configuration/6.0.0": {
         "dependencies": {
+          "Microsoft.Extensions.Configuration": "7.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Logging": "6.0.0",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "2.1.0"
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Logging.Log4Net.AspNetCore/6.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "7.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "log4net": "2.0.15"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
+          }
         }
       },
       "Microsoft.Extensions.ObjectPool/2.2.0": {},
@@ -1025,12 +1070,13 @@
           "Microsoft.Extensions.Primitives": "7.0.0"
         }
       },
-      "Microsoft.Extensions.Options.ConfigurationExtensions/2.1.0": {
+      "Microsoft.Extensions.Options.ConfigurationExtensions/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
-          "Microsoft.Extensions.Configuration.Binder": "2.1.0",
+          "Microsoft.Extensions.Configuration.Binder": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Options": "6.0.0"
+          "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.Extensions.Primitives": "7.0.0"
         }
       },
       "Microsoft.Extensions.Primitives/7.0.0": {
@@ -1412,6 +1458,97 @@
             "rid": "win-x86",
             "assetType": "native",
             "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "Serilog/2.10.0": {
+        "runtime": {
+          "lib/netstandard2.1/Serilog.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.10.0.0"
+          }
+        }
+      },
+      "Serilog.Extensions.Logging/3.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Serilog": "2.10.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Extensions.Logging.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "3.1.0.0"
+          }
+        }
+      },
+      "Serilog.Extensions.Logging.File/3.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "6.0.0",
+          "Serilog": "2.10.0",
+          "Serilog.Extensions.Logging": "3.1.0",
+          "Serilog.Formatting.Compact": "1.1.0",
+          "Serilog.Sinks.Async": "1.5.0",
+          "Serilog.Sinks.RollingFile": "3.3.0"
+        },
+        "runtime": {
+          "lib/net6.0/Serilog.Extensions.Logging.File.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Serilog.Formatting.Compact/1.1.0": {
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Formatting.Compact.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0": {
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Async.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.File/3.2.0": {
+        "dependencies": {
+          "Serilog": "2.10.0",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem": "4.3.0",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Text.Encoding.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Timer": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Serilog.Sinks.File.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.RollingFile/3.3.0": {
+        "dependencies": {
+          "Serilog.Sinks.File": "3.2.0",
+          "System.IO": "4.3.0",
+          "System.IO.FileSystem.Primitives": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Text.Encoding.Extensions": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Serilog.Sinks.RollingFile.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "3.3.0.0"
           }
         }
       },
@@ -2465,6 +2602,7 @@
           "BCrypt": "1.0.0",
           "BCrypt.Net-Core": "1.6.0",
           "BCrypt.Net-Next": "4.0.3",
+          "CrudOperation": "1.0.0",
           "Dapper": "2.0.123",
           "DinkToPdf": "1.0.8",
           "DinkToPdfIncludesDependencies": "1.0.8",
@@ -2483,6 +2621,16 @@
         },
         "runtime": {
           "CORE.dll": {}
+        }
+      },
+      "CrudOperation/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.0.123",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "runtime": {
+          "CrudOperation.dll": {}
         }
       },
       "EmployeeGeneric/1.0.0": {
@@ -2527,6 +2675,7 @@
           "BCrypt.Net-Core": "1.6.0",
           "BCrypt.Net-Next": "4.0.3",
           "CORE": "1.0.0",
+          "CrudOperation": "1.0.0",
           "Dapper": "2.0.123",
           "DinkToPdf": "1.0.8",
           "DinkToPdfIncludesDependencies": "1.0.8",
@@ -2773,6 +2922,13 @@
       "sha512": "sha512-tRxeolUZl5863E/IHVb+5riZwsHw8uNiP0uku0gO1nktR2M9DCJS+U9EoLV3CFr0VuxoxQF/sLOffa8BP0hJzg==",
       "path": "itextsharp.xmlworker/5.5.13.3",
       "hashPath": "itextsharp.xmlworker.5.5.13.3.nupkg.sha512"
+    },
+    "log4net/2.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GahnO9ZgFka+xYcFwAfIFjW+k86P2nxFoaEpH6t3v4hiGj7tv2ksVZphxCVIHmJxoySS0HeU3dgCW+bSCcfD0A==",
+      "path": "log4net/2.0.15",
+      "hashPath": "log4net.2.0.15.nupkg.sha512"
     },
     "MassTransit/8.0.9": {
       "type": "package",
@@ -3068,12 +3224,12 @@
       "path": "microsoft.extensions.configuration.abstractions/7.0.0",
       "hashPath": "microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.Binder/2.1.0": {
+    "Microsoft.Extensions.Configuration.Binder/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Fls0O54Ielz1DiVYpcmiUpeizN1iKGGI5yAWAoShfmUvMcQ8jAGOK1a+DaflHA5hN9IOKvmSos0yewDYAIY0ZA==",
-      "path": "microsoft.extensions.configuration.binder/2.1.0",
-      "hashPath": "microsoft.extensions.configuration.binder.2.1.0.nupkg.sha512"
+      "sha512": "sha512-b3ErKzND8LIC7o08QAVlKfaEIYEvLJbtmVbFZVBRXeu9YkKfSSzLZfR1SUfQPBIy9mKLhEtJgGYImkcMNaKE0A==",
+      "path": "microsoft.extensions.configuration.binder/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.EnvironmentVariables/2.1.0": {
       "type": "package",
@@ -3180,19 +3336,26 @@
       "path": "microsoft.extensions.logging/6.0.0",
       "hashPath": "microsoft.extensions.logging.6.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+    "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA==",
-      "path": "microsoft.extensions.logging.abstractions/6.0.0",
-      "hashPath": "microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
+      "sha512": "sha512-dzB2Cgg+JmrouhjkcQGzSFjjvpwlq353i8oBQO2GWNjCXSzhbtBRUf28HSauWe7eib3wYOdb3tItdjRwAdwCSg==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.1",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512"
     },
-    "Microsoft.Extensions.Logging.Configuration/2.1.0": {
+    "Microsoft.Extensions.Logging.Configuration/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nMAcTACzW37zc3f7n5fIYsRDXtjjQA2U/kiE4xmuSLn7coCIeDfFTpUhJ+wG/3vwb5f1lFWNpyXGyQdlUCIXUw==",
-      "path": "microsoft.extensions.logging.configuration/2.1.0",
-      "hashPath": "microsoft.extensions.logging.configuration.2.1.0.nupkg.sha512"
+      "sha512": "sha512-ZDskjagmBAbv+K8rYW9VhjPplhbOE63xUD0DiuydZJwt15dRyoqicYklLd86zzeintUc7AptDkHn+YhhYkYo8A==",
+      "path": "microsoft.extensions.logging.configuration/6.0.0",
+      "hashPath": "microsoft.extensions.logging.configuration.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Log4Net.AspNetCore/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qHb3GudscgrgEVByh86kAq3FMmjOdPIVoqvff3eokEP+QkZHzr42l4PlgxBsqhhlIX02SazC7ZdbfiFGDPRv9A==",
+      "path": "microsoft.extensions.logging.log4net.aspnetcore/6.1.0",
+      "hashPath": "microsoft.extensions.logging.log4net.aspnetcore.6.1.0.nupkg.sha512"
     },
     "Microsoft.Extensions.ObjectPool/2.2.0": {
       "type": "package",
@@ -3208,12 +3371,12 @@
       "path": "microsoft.extensions.options/6.0.0",
       "hashPath": "microsoft.extensions.options.6.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Options.ConfigurationExtensions/2.1.0": {
+    "Microsoft.Extensions.Options.ConfigurationExtensions/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-w/MP147fSqlIcCymaNpLbjdJsFVkSJM9Sz+jbWMr1gKMDVxoOS8AuFjJkVyKU/eydYxHIR/K1Hn3wisJBW5gSg==",
-      "path": "microsoft.extensions.options.configurationextensions/2.1.0",
-      "hashPath": "microsoft.extensions.options.configurationextensions.2.1.0.nupkg.sha512"
+      "sha512": "sha512-bXWINbTn0vC0FYc9GaQTISbxhQLAMrvtbuvD9N6JelEaIS/Pr62wUCinrq5bf1WRBGczt1v4wDhxFtVFNcMdUQ==",
+      "path": "microsoft.extensions.options.configurationextensions/6.0.0",
+      "hashPath": "microsoft.extensions.options.configurationextensions.6.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Primitives/7.0.0": {
       "type": "package",
@@ -3543,6 +3706,55 @@
       "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "Serilog/2.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+QX0hmf37a0/OZLxM3wL7V6/ADvC1XihXN4Kq/p6d8lCPfgkRdiuhbWlMaFjR9Av0dy5F0+MBeDmDdRZN/YwQA==",
+      "path": "serilog/2.10.0",
+      "hashPath": "serilog.2.10.0.nupkg.sha512"
+    },
+    "Serilog.Extensions.Logging/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IWfem7wfrFbB3iw1OikqPFNPEzfayvDuN4WP7Ue1AVFskalMByeWk3QbtUXQR34SBkv1EbZ3AySHda/ErDgpcg==",
+      "path": "serilog.extensions.logging/3.1.0",
+      "hashPath": "serilog.extensions.logging.3.1.0.nupkg.sha512"
+    },
+    "Serilog.Extensions.Logging.File/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bUYjMHn7NhpK+/8HDftG7+G5hpWzD49XTSvLoUFZGgappDa6FoseqFOsLrjLRjwe1zM+igH5mySFJv3ntb+qcg==",
+      "path": "serilog.extensions.logging.file/3.0.0",
+      "hashPath": "serilog.extensions.logging.file.3.0.0.nupkg.sha512"
+    },
+    "Serilog.Formatting.Compact/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pNroKVjo+rDqlxNG5PXkRLpfSCuDOBY0ri6jp9PLe505ljqwhwZz8ospy2vWhQlFu5GkIesh3FcDs4n7sWZODA==",
+      "path": "serilog.formatting.compact/1.1.0",
+      "hashPath": "serilog.formatting.compact.1.1.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.Async/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-csHYIqAwI4Gy9oAhXYRwxGrQEAtBg3Ep7WaCzsnA1cZuBZjVAU0n7hWaJhItjO7hbLHh/9gRVxALCUB4Dv+gZw==",
+      "path": "serilog.sinks.async/1.5.0",
+      "hashPath": "serilog.sinks.async.1.5.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.File/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VHbo68pMg5hwSWrzLEdZv5b/rYmIgHIRhd4d5rl8GnC5/a8Fr+RShT5kWyeJOXax1el6mNJ+dmHDOVgnNUQxaw==",
+      "path": "serilog.sinks.file/3.2.0",
+      "hashPath": "serilog.sinks.file.3.2.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.RollingFile/3.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2lT5X1r3GH4P0bRWJfhA7etGl8Q2Ipw9AACvtAHWRUSpYZ42NGVyHoVs2ALBZ/cAkkS+tA4jl80Zie144eLQPg==",
+      "path": "serilog.sinks.rollingfile/3.3.0",
+      "hashPath": "serilog.sinks.rollingfile.3.3.0.nupkg.sha512"
     },
     "ServiceStack.Client/6.5.0": {
       "type": "package",
@@ -4315,6 +4527,11 @@
       "hashPath": "wodsoft.extensions.primitives.1.1.1.nupkg.sha512"
     },
     "CORE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CrudOperation/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

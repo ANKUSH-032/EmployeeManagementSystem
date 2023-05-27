@@ -1,6 +1,6 @@
 ﻿using Core.Comman;
 using Core.Model;
-using CrudOperations;
+using CrudOperation;
 
 
 namespace Core.Interface
