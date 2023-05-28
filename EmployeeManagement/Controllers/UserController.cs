@@ -72,7 +72,7 @@ namespace EmployeeManagement.Controllers
             catch (Exception ex)
             {
                 Logger.AddErrorLog(ControllerContext.ActionDescriptor.ControllerName, "User Insert", User?.Identity?.Name, ex);
-                return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR,MessageHelper.message);
+                return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR,MessageHelper.message);
             }
         }
         [SwaggerOperation(
@@ -88,14 +88,14 @@ namespace EmployeeManagement.Controllers
             catch (Exception ex)
             {
                 Logger.AddErrorLog(ControllerContext.ActionDescriptor.ControllerName, "User Update", User?.Identity?.Name, ex);
-                return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, MessageHelper.message);
+                return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, MessageHelper.message);
             }
         }
         [SwaggerOperation(
         Summary = "Get User List", Description = "This API will allow to get list of user in system.", OperationId = "")]
         [HttpPost, Route("usergetlist")]
         public async Task<IActionResult> UserGetList([FromBody] JqueryDataTable listingParams)
-        {
+            {
             try
             {
                 var res = await _userRepository.UserGetList(listingParams);
@@ -110,7 +110,7 @@ namespace EmployeeManagement.Controllers
             catch (Exception ex)
             {
                 Logger.AddErrorLog(ControllerContext.ActionDescriptor.ControllerName, "Provider Get List", User?.Identity?.Name, ex);
-                return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, MessageHelper.message);
+                return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, MessageHelper.message);
             }
         }
 
@@ -144,7 +144,7 @@ namespace EmployeeManagement.Controllers
             catch (Exception ex)
             {
                 Logger.AddErrorLog(ControllerContext.ActionDescriptor.ControllerName, "Provider Get Details", User?.Identity?.Name, ex);
-                return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, MessageHelper.message);
+                return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, MessageHelper.message);
             }
         }
 
@@ -161,7 +161,7 @@ namespace EmployeeManagement.Controllers
             catch (Exception ex)
             {
                 Logger.AddErrorLog(ControllerContext.ActionDescriptor.ControllerName, "Provider Delete", User?.Identity?.Name, ex);
-                return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, MessageHelper.message);
+                return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, MessageHelper.message);
             }
         }
 

@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 using System.Globalization;
 
-using StatusCodes = CrudOperations.StatusCodes;
+using StatusCodes = CrudOperation.StatusCodes;
 using Core.Interface.Helper;
 using EmployeeGeneric.Helper;
 using Core.Comman;

@@ -15,6 +15,7 @@ namespace EmployeeManagement.Controllers
     [ApiController]
     public class QRGaneraterController : Controller
     {
+#pragma warning disable
 
 
         private readonly IQRGaneraterRepository _qrGaneraterRepository;
@@ -69,7 +70,7 @@ namespace EmployeeManagement.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
+                return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
 
             }
         }

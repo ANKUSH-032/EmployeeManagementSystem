@@ -313,10 +313,13 @@ F:\C#Project\EMP_API\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.Asse
 F:\C#Project\EMP_API\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.csproj.CoreCompileInputs.cache
 F:\C#Project\EMP_API\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.MvcApplicationPartsAssemblyInfo.cs
 F:\C#Project\EMP_API\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.MvcApplicationPartsAssemblyInfo.cache
-F:\C#Project\EMP_API\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.dll
-F:\C#Project\EMP_API\EmployeeManagement\obj\Debug\net6.0\refint\EmployeeManagement.dll
-F:\C#Project\EMP_API\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.pdb
+F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\TraceReloggerLib.dll
+F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\Dia2Lib.dll
+F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\OSExtensions.dll
+F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\log4net.config
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\appsettings.Development.json
+F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\appsettings.json
+F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\EmployeeManagement.staticwebassets.runtime.json
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\x86\KernelTraceControl.dll
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\x86\KernelTraceControl.Win61.dll
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\x86\msdia140.dll
@@ -332,12 +335,6 @@ F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\arm64\msdia140.dll
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\arm64\msvcp140.dll
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\arm64\vcruntime140.dll
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\arm64\vcruntime140_1.dll
-F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\TraceReloggerLib.dll
-F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\Dia2Lib.dll
-F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\OSExtensions.dll
-F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\log4net.config
-F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\appsettings.json
-F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\EmployeeManagement.staticwebassets.runtime.json
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\EmployeeManagement.exe
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\EmployeeManagement.deps.json
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\EmployeeManagement.runtimeconfig.json
@@ -407,6 +404,8 @@ F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.De
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\Microsoft.Graph.dll
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\Microsoft.Graph.Core.dll
@@ -502,7 +501,6 @@ F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\runtimes\browser\lib\ne
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\CORE.dll
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\CrudOperation.dll
-F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\CrudOperations.dll
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\EmployeeGeneric.dll
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\Infrastructure.dll
 F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\CORE.pdb
@@ -518,7 +516,8 @@ F:\C#Project\EMP_API\EmployeeManagement\obj\Debug\net6.0\staticwebassets.build.j
 F:\C#Project\EMP_API\EmployeeManagement\obj\Debug\net6.0\staticwebassets.development.json
 F:\C#Project\EMP_API\EmployeeManagement\obj\Debug\net6.0\scopedcss\bundle\EmployeeManagement.styles.css
 F:\C#Project\EMP_API\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.csproj.CopyComplete
+F:\C#Project\EMP_API\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.dll
+F:\C#Project\EMP_API\EmployeeManagement\obj\Debug\net6.0\refint\EmployeeManagement.dll
+F:\C#Project\EMP_API\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.pdb
 F:\C#Project\EMP_API\EmployeeManagement\obj\Debug\net6.0\EmployeeManagement.genruntimeconfig.cache
 F:\C#Project\EMP_API\EmployeeManagement\obj\Debug\net6.0\ref\EmployeeManagement.dll
-F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-F:\C#Project\EMP_API\EmployeeManagement\bin\Debug\net6.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll

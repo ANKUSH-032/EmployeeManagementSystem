@@ -27,10 +27,10 @@ namespace EmployeeManagement.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
+                return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
 
             }
-        }
+        }   
 
         [HttpGet]
         public async Task<IActionResult> LeaveGetDetails([FromBody] LeaveGetDetails leaveGetDetails)
@@ -42,7 +42,7 @@ namespace EmployeeManagement.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
+                return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
             }
         }
 
@@ -56,7 +56,7 @@ namespace EmployeeManagement.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
+                return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
             }
         }
 
@@ -70,7 +70,7 @@ namespace EmployeeManagement.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
+                return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
             }
         }
 
@@ -90,7 +90,7 @@ namespace EmployeeManagement.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
+                return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
             }
         }
     }

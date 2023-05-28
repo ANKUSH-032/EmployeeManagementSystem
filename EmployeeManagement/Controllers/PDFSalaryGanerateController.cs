@@ -1,6 +1,6 @@
 ﻿using Core.Interface;
 using Core.Model;
-using CrudOperations;
+using CrudOperation;
 using EmployeeGeneric.Helper;
 using EmployeeGeneric.Utilities;
 using EmployeeManagement.Services;

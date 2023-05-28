@@ -27,7 +27,7 @@ namespace EmployeeManagement.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
+                return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
             }
         }
         [HttpDelete]
@@ -40,7 +40,7 @@ namespace EmployeeManagement.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
+                return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
             }
         }
         [HttpGet("attendenceGetList")]
@@ -60,7 +60,7 @@ namespace EmployeeManagement.Controllers
             catch (Exception ex)
             {
                 //Logger.AddErrorLog(ControllerContext.ActionDescriptor.ControllerName, "Clinic List", User.Identity.Name, ex);
-                return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
+                return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
             }
 
         }
@@ -74,7 +74,7 @@ namespace EmployeeManagement.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
+                return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
             }
         }
     }

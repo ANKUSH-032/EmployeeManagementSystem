@@ -2,8 +2,6 @@ using Core.Interface;
 using Core.Interface.Helper;
 using Core.Model;
 using CORE.Interface;
-using CrudOperation;
-using CrudOperations;
 using DinkToPdf;
 using DinkToPdf.Contracts;
 using EmployeeGeneric.Helper;
@@ -18,6 +16,8 @@ using ServiceStack;
 using Microsoft.Extensions.Logging;
 using System.Text;
 using System.Text.Json;
+using FluentAssertions.Common;
+using CrudOperation;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
@@ -26,6 +26,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSingleton(typeof(IConverter),
     new SynchronizedConverter(new PdfTools()));
 
+#region LOG 4 NET
 builder.Services.AddLogging(loggingBuilder =>
 {
     // Configure Log4Net
@@ -35,7 +36,7 @@ builder.Services.AddLogging(loggingBuilder =>
     // Add Log4Net as the logging provider
     loggingBuilder.AddLog4Net();
 });
-
+#endregion
 
 
 builder.Services.AddControllers(config =>
@@ -54,14 +55,31 @@ builder.Services.AddControllers(config =>
 //options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
 //});
 
+#region Cors Policy blocked
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("CorsPolicy",
+//    options =>
+//    {
+//        options.WithOrigins(builder.Configuration.GetSection("APICallerURL").Get<string>()).AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+//    });
+//});
+#endregion
+
+#region allow cors policy
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("CorsPolicy",
-    options =>
-    {
-        options.WithOrigins(builder.Configuration.GetSection("APICallerURL").Get<string>()).AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
-    });
+    options.AddPolicy("AllowSpecificOrigin",
+        builder =>
+        {
+            builder.WithOrigins("http://localhost:4200")
+                   .AllowAnyHeader()
+                   .AllowAnyMethod();
+        });
 });
+#endregion
+
+
 
 #region JWT Authentication
 var secretKey = builder.Configuration.GetSection("AppSettings:Secret").Value;
@@ -149,7 +167,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ValidationFilter>();
-builder.Services.AddScoped<CrudOperation.ICrudOperationService>(x => new CrudOperationDataAccess(x.GetService<IConfiguration>(), builder.Configuration["ConnectionStrings:DataAccessConnection"]));
+builder.Services.AddScoped<ICrudOperationService>(x => new CrudOperationDataAccess(builder.Configuration, builder.Configuration["ConnectionStrings:DataAccessConnection"]));
+
+//builder.Services.AddScoped<ICrudOperationService>(x => new CrudOperationDataAccess(builder.Configuration, builder.Configuration["ConnectionStrings:DataAccessConnection"]));
 //builder.Services.AddScoped<ICrudOperationService>(x => new DataAccess(builder.Configuration, builder.Configuration["ConnectionStrings:DataAccessConnection"]));
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddScoped<IAttendanceReportRepository, AttendanceReportRepository>();
@@ -186,7 +206,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseAuthentication();
 app.UseAuthorization();
-
+app.UseCors("AllowSpecificOrigin");
 app.MapControllers();
 app.Run();
 

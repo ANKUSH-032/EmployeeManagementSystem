@@ -79,7 +79,7 @@ namespace EmployeeManagement.Controllers
             {
                 log.Error($"An error occurred in {nameof(EmployeeInsert)} action", ex);
                 Logger.AddErrorLog(ControllerContext.ActionDescriptor.ControllerName, "Employee Insert", User.Identity.Name, ex);
-                return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
+                return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
             }
             #endregion
         }
@@ -122,7 +122,7 @@ namespace EmployeeManagement.Controllers
             catch (Exception ex)
             {
                 Logger.AddErrorLog(ControllerContext.ActionDescriptor.ControllerName, "Employee Update", User.Identity.Name, ex);
-                return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
+                return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
             }
             #endregion
         }
@@ -140,7 +140,7 @@ namespace EmployeeManagement.Controllers
 
             {
                 Logger.AddErrorLog(ControllerContext.ActionDescriptor.ControllerName, "Employee Get", User.Identity.Name, ex);
-                return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
+                return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
             }
         }
         [HttpDelete]
@@ -154,7 +154,7 @@ namespace EmployeeManagement.Controllers
             catch (Exception ex)
             {
                 Logger.AddErrorLog(ControllerContext.ActionDescriptor.ControllerName, "Employee Delete", User.Identity.Name, ex);
-                return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
+                return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
             }
         }
         [HttpGet("list")]
@@ -174,7 +174,7 @@ namespace EmployeeManagement.Controllers
             catch (Exception ex)
             {
                 Logger.AddErrorLog(ControllerContext.ActionDescriptor.ControllerName, "Employee List", User.Identity.Name, ex);
-                return StatusCode(CrudOperations.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
+                return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
             }
 
         }

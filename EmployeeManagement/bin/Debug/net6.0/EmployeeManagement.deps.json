@@ -47,8 +47,7 @@
           "System.Security.Cryptography.Cng": "5.0.0",
           "Wodsoft.Extensions.Configuration.FileExtensions": "1.1.2",
           "log4net": "2.0.15",
-          "prometheus-net": "7.1.0-pre-000318-0479f53",
-          "CrudOperations": "1.0.0.0"
+          "prometheus-net": "7.1.0-pre-000318-0479f53"
         },
         "runtime": {
           "EmployeeManagement.dll": {}
@@ -2696,14 +2695,6 @@
         "runtime": {
           "Infrastructure.dll": {}
         }
-      },
-      "CrudOperations/1.0.0.0": {
-        "runtime": {
-          "CrudOperations.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
       }
     }
   },
@@ -4543,11 +4534,6 @@
     },
     "Infrastructure/1.0.0": {
       "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CrudOperations/1.0.0.0": {
-      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
