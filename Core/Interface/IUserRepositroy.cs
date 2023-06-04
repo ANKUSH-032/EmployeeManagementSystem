@@ -15,7 +15,7 @@ namespace Core.Interface
         Task<Response> UserUpdate(UserUpdate userUpdate);
         Task<ResponseList<UserGetDetails>> UserGetList(JqueryDataTable list);
        // Task<ResponseList<UserPermission>> UserPermissionsGetList(GetUser userGetList);
-        Task<Response<UserInsert>> UserGetDetails(GetUser userGetDetails);
+        Task<Response<UserGetDetails>> UserGetDetails(GetUser userGetDetails);
         Task<Response> UserDelete(DeleteUser userDelete);
        // Task<Response> UserPermissionsSave(List<UserPermission> PermissionsLst);
     }

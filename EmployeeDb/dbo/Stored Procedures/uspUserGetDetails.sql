@@ -1,4 +1,4 @@
-﻿
+﻿-- 
 CREATE PROCEDURE [dbo].[uspUserGetDetails]
 @UserId VARCHAR(50)
 AS 
@@ -39,12 +39,14 @@ BEGIN
 				 MiddleName,
 				 LastName,
 				 Email,
-				 RoleId,
+				 r.RoleId,
 				 ContactNo,
 				 PasswordHash,
-				 PasswordSalt
+				 PasswordSalt,
+				 r.RoleName
 				
-				FROM [dbo].[tblUsers] WITH(NOLOCK)  
+				FROM [dbo].[tblUsers] u WITH(NOLOCK)
+				LEFT JOIN  [dbo].[tblMasterRole] r WITH(NOLOCK) ON u.RoleId = r.RoleId 
 				WHERE UserId = @UserId
 				AND IsDeleted=0
 

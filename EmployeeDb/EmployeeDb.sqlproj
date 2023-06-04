@@ -71,8 +71,6 @@
     <Build Include="dbo\Tables\tblDeductionSalary.sql" />
     <Build Include="dbo\Tables\tblAttendence.sql" />
     <Build Include="dbo\Tables\tblAllowances.sql" />
-    <Build Include="Security\Ankush.sql" />
-    <Build Include="Security\RoleMemberships.sql" />
     <Build Include="dbo\Stored Procedures\uspSalaryInsert.sql" />
     <Build Include="dbo\Stored Procedures\uspLoginOrLogoutDelete.sql" />
     <Build Include="dbo\Stored Procedures\uspLoginOrLogout.sql" />
@@ -131,5 +129,6 @@
     <Build Include="dbo\Stored Procedures\uspLeaveInsert.sql" />
     <Build Include="dbo\Stored Procedures\uspLeaveGetDetails.sql" />
     <Build Include="dbo\Stored Procedures\uspLeaveDelete.sql" />
+    <Build Include="dbo\Stored Procedures\uspCommonGetDDL.sql" />
   </ItemGroup>
 </Project>

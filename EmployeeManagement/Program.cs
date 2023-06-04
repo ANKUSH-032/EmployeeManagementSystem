@@ -18,6 +18,7 @@ using System.Text;
 using System.Text.Json;
 using FluentAssertions.Common;
 using CrudOperation;
+using CORE.Comman;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
@@ -69,12 +70,16 @@ builder.Services.AddControllers(config =>
 #region allow cors policy
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowSpecificOrigin",
-        builder =>
+    // options.AddPolicy("AllowSpecificOrigin",
+     options.AddPolicy("AllowAllOrigins",
+         builder =>
         {
-            builder.WithOrigins("http://localhost:4200")
-                   .AllowAnyHeader()
-                   .AllowAnyMethod();
+            //builder.WithOrigins("http://localhost:4200")
+            //       .AllowAnyHeader()
+            //       .AllowAnyMethod();
+            builder.AllowAnyOrigin()
+                       .AllowAnyHeader()
+                       .AllowAnyMethod();
         });
 });
 #endregion
@@ -180,7 +185,7 @@ builder.Services.AddScoped<IUserRepositroy, UserRepositroy>();
 builder.Services.AddScoped<IDataProtectionRepository, DataProtectionRepository>();
 builder.Services.AddScoped<ILeaveRepository, LeaveRepository>();
 builder.Services.AddScoped<IQRGaneraterRepository, QRGaneraterRepository>();
-
+builder.Services.AddScoped<ICommanDDLRepository, CommanDDLRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -206,7 +211,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseAuthentication();
 app.UseAuthorization();
-app.UseCors("AllowSpecificOrigin");
+//app.UseCors("AllowSpecificOrigin");
+app.UseCors("AllowAllOrigins");
 app.MapControllers();
 app.Run();
 

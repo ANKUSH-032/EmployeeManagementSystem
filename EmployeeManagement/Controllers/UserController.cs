@@ -11,7 +11,7 @@ using Swashbuckle.AspNetCore.Annotations;
 
 namespace EmployeeManagement.Controllers
 {
-    [Route("api/[controller]"), Authorize]
+    [Route("api/[controller]")]
     [ApiController]
     public class UserController : Controller
     {
@@ -82,6 +82,7 @@ namespace EmployeeManagement.Controllers
         {
             try
             {
+                userUpdate.UpdatedBy = User?.Identity?.Name;
                 var res = await _userRepository.UserUpdate(userUpdate);
                 return res.Status ? StatusCode(StatusCodes.Status200OK, res) : StatusCode(StatusCodes.Status409Conflict, res);
             }

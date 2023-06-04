@@ -18,7 +18,7 @@ namespace Core.Model
         public string? FirstName { get; set; }
 
 
-        [StringLength(50, ErrorMessage = "{0} must be at least {2} characters long.", MinimumLength = 2)]
+       // [StringLength(50, ErrorMessage = "{0} must be at least {2} characters long.", MinimumLength = 2)]
         public string? MiddleName { get; set; }
 
         [Required, StringLength(50, ErrorMessage = "{0} must be at least {2} characters long.", MinimumLength = 2)]
@@ -57,6 +57,8 @@ namespace Core.Model
         public string? UserId { get; set; }
         public string? UpdatedBy { get; set; }
     }
+
+    
 
     public class UserLogin : User
     {

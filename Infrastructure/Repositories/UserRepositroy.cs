@@ -70,9 +70,9 @@ namespace Infrastructure.Repositories
         //    return await _crudOperation.GetPaginatedList<UserPermission>(storedProcedureName: "[dbo].[uspUserPermissionsGet]", userGetList);
         //}
 
-        public async Task<Response<UserInsert>> UserGetDetails(GetUser userGetDetails)
+        public async Task<Response<UserGetDetails>> UserGetDetails(GetUser userGetDetails)
         {
-            return await _crudOperation.GetSingleRecord<UserInsert>(storedProcedureName: "[dbo].[uspUserGetDetails]", userGetDetails);
+            return await _crudOperation.GetSingleRecord<UserGetDetails>(storedProcedureName: "[dbo].[uspUserGetDetails]", userGetDetails);
         }
 
         public async Task<Response> UserDelete(DeleteUser userDelete)

@@ -6,11 +6,3 @@ F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeDb\obj\Debug\postdep
 F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeDb\obj\Debug\predeploy.sql
 F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeDb\obj\Debug\EmployeeDb.dll
 F:\Projects\EmployeeManagentSystemTask\EmployeeTask\EmployeeDb\obj\Debug\EmployeeDb.pdb
-F:\C#Project\EMP_API\EmployeeDb\bin\Debug\EmployeeDb.dacpac
-F:\C#Project\EMP_API\EmployeeDb\obj\Debug\EmployeeDb.sqlproj.AssemblyReference.cache
-F:\C#Project\EMP_API\EmployeeDb\obj\Debug\Model.xml
-F:\C#Project\EMP_API\EmployeeDb\obj\Debug\refactor.xml
-F:\C#Project\EMP_API\EmployeeDb\obj\Debug\postdeploy.sql
-F:\C#Project\EMP_API\EmployeeDb\obj\Debug\predeploy.sql
-F:\C#Project\EMP_API\EmployeeDb\obj\Debug\EmployeeDb.dll
-F:\C#Project\EMP_API\EmployeeDb\obj\Debug\EmployeeDb.pdb
