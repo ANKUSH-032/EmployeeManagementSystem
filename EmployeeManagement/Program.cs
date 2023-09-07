@@ -19,6 +19,11 @@ using System.Text.Json;
 using FluentAssertions.Common;
 using CrudOperation;
 using CORE.Comman;
+using DocumentFormat.OpenXml.Presentation;
+using Swashbuckle.Swagger;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Versioning;
+using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
@@ -39,6 +44,7 @@ builder.Services.AddLogging(loggingBuilder =>
 });
 #endregion
 
+#region Model state 
 
 builder.Services.AddControllers(config =>
 {
@@ -47,6 +53,7 @@ builder.Services.AddControllers(config =>
 {
     options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
 });
+#endregion
 
 //builder.Services.AddControllers(config =>
 //{
@@ -160,7 +167,21 @@ builder.Services.AddSwaggerGen(setup =>
                 });
 });
 
+#region API Versioning 
+builder.Services.AddApiVersioning(options =>
+{
+    options.DefaultApiVersion = new ApiVersion(1, 0);
+    options.ReportApiVersions = true;
+    options.AssumeDefaultVersionWhenUnspecified = true;
+   // options.ApiVersionReader = new UrlSegmentApiVersionReader();
+});
+builder.Services.AddVersionedApiExplorer(setup =>
+{
+    setup.GroupNameFormat = "'v'VVV";
+    setup.SubstituteApiVersionInUrl = true;
+});
 
+#endregion
 
 /// <summary>
 /// Add Controller 
@@ -192,7 +213,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "StatWatch v1"));
+    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "EMP v1"));
 }
 
 

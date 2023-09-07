@@ -196,3 +196,190 @@ System.InvalidOperationException: Unable to resolve service for type 'CORE.Comma
 2023-06-04 17:36:23,115 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
 2023-06-04 17:36:23,138 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
 2023-06-04 17:36:23,146 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-06-05 22:59:32,017 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-06-05 22:59:32,364 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-06-05 22:59:32,445 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-06-05 22:59:32,605 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-06-07 00:06:08,685 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-06-07 00:06:08,784 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-06-07 00:06:08,799 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-06-07 00:06:08,804 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-06-07 22:34:52,577 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-06-07 22:34:52,692 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-06-07 22:34:52,705 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-06-07 22:34:52,727 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-06-11 15:20:28,299 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-06-11 15:20:28,383 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-06-11 15:20:28,395 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-06-11 15:20:28,405 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-06-17 18:06:40,361 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-06-17 18:06:40,482 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-06-17 18:06:40,524 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-06-17 18:06:40,550 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-06-18 14:56:15,297 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-06-18 14:56:15,496 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-06-18 14:56:15,611 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-06-18 14:56:15,779 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-07-30 14:54:02,577 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-07-30 14:54:02,705 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-07-30 14:54:02,715 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-07-30 14:54:02,734 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-07-30 14:58:51,772 [12] ERROR EmployeeManagement.Controllers.AuthController - An error occurred in Login action
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'ankush'.  Reason: The password of the account has expired.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1186
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 774
+   at EmployeeGeneric.Helper.Authenticates.GetUserDetails[T](String UserId, String Email) in F:\C#Project\EMP_API\EmployeeGeneric\Helper\Authenticates.cs:line 102
+   at EmployeeGeneric.Helper.Authenticates.Authentication[T](AuthenticationRequest loginCredentials) in F:\C#Project\EMP_API\EmployeeGeneric\Helper\Authenticates.cs:line 54
+   at EmployeeGeneric.Helper.Authenticates.Login[T](AuthenticationRequest loginCredentials) in F:\C#Project\EMP_API\EmployeeGeneric\Helper\Authenticates.cs:line 47
+   at EmployeeManagement.Controllers.AuthController.Login(AuthenticationRequest loginCredentials) in F:\C#Project\EMP_API\EmployeeManagement\Controllers\AuthController.cs:line 50
+ClientConnectionId:b8dc38dc-39f2-45cf-abd9-04e6f848596f
+Error Number:18487,State:1,Class:14
+2023-07-30 14:58:51,772 [18] ERROR EmployeeManagement.Controllers.AuthController - An error occurred in Login action
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'ankush'.  Reason: The password of the account has expired.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1186
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 774
+   at EmployeeGeneric.Helper.Authenticates.GetUserDetails[T](String UserId, String Email) in F:\C#Project\EMP_API\EmployeeGeneric\Helper\Authenticates.cs:line 102
+   at EmployeeGeneric.Helper.Authenticates.Authentication[T](AuthenticationRequest loginCredentials) in F:\C#Project\EMP_API\EmployeeGeneric\Helper\Authenticates.cs:line 54
+   at EmployeeGeneric.Helper.Authenticates.Login[T](AuthenticationRequest loginCredentials) in F:\C#Project\EMP_API\EmployeeGeneric\Helper\Authenticates.cs:line 47
+   at EmployeeManagement.Controllers.AuthController.Login(AuthenticationRequest loginCredentials) in F:\C#Project\EMP_API\EmployeeManagement\Controllers\AuthController.cs:line 50
+ClientConnectionId:b8dc38dc-39f2-45cf-abd9-04e6f848596f
+Error Number:18487,State:1,Class:14
+2023-07-30 15:04:04,555 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-07-30 15:04:04,613 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-07-30 15:04:04,621 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-07-30 15:04:04,625 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-05 21:55:11,286 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-05 21:55:11,470 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-05 21:55:11,475 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-05 21:55:11,481 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-05 22:12:14,029 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-05 22:12:14,138 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-05 22:12:14,200 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-05 22:12:14,223 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-05 22:13:41,446 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-05 22:13:41,584 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-05 22:13:41,592 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-05 22:13:41,599 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-07 17:45:19,404 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-07 17:45:19,520 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-07 17:45:19,533 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-07 17:45:19,538 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-07 17:58:49,695 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-07 17:58:49,818 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-07 17:58:49,827 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-07 17:58:49,833 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-07 18:00:00,597 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-07 18:00:00,677 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-07 18:00:00,723 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-07 18:00:00,731 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-07 18:00:47,038 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-07 18:00:47,142 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-07 18:00:47,198 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-07 18:00:47,221 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-07 18:01:35,017 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-07 18:01:35,128 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-07 18:01:35,139 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-07 18:01:35,145 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-07 18:04:27,532 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-07 18:04:27,581 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-07 18:04:27,590 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-07 18:04:27,594 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-07 18:05:06,118 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-07 18:05:06,158 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-07 18:05:06,163 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-07 18:05:06,167 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-07 18:06:00,034 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-07 18:06:00,084 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-07 18:06:00,088 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-07 18:06:00,096 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-07 18:06:51,459 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-07 18:06:51,508 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-07 18:06:51,516 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-07 18:06:51,526 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-07 18:06:53,949 [8] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference 'apiVersion' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidate(Endpoint endpoint, Int32 score)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidates(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at System.Threading.LazyInitializer.EnsureInitialized[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-07 18:06:55,796 [16] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference 'apiVersion' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidate(Endpoint endpoint, Int32 score)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidates(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at System.Threading.LazyInitializer.EnsureInitialized[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-07 18:14:05,184 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-07 18:14:05,345 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-07 18:14:05,418 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-07 18:14:05,461 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-07 18:15:09,589 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-07 18:15:09,799 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-07 18:15:09,810 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-07 18:15:09,832 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-07 18:19:40,015 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-07 18:19:40,131 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-07 18:19:40,146 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-07 18:19:40,176 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-07 18:22:32,298 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-07 18:22:32,356 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-07 18:22:32,369 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-07 18:22:32,373 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-07 18:23:34,922 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-07 18:23:34,990 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-07 18:23:35,005 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-07 18:23:35,016 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-07 18:24:41,323 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-07 18:24:41,413 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-07 18:24:41,441 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-07 18:24:41,453 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\

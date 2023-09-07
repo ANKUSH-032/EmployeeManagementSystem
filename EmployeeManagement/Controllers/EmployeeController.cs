@@ -17,8 +17,10 @@ using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 
 namespace EmployeeManagement.Controllers
 {
-    [Route("api/[controller]"), Authorize, ActivityLog]
+   [ApiVersion("1.0")]
     [ApiController]
+    [Route("api/v{version:apiVersion}/[controller]"), Authorize, ActivityLog]
+
 #pragma warning disable
     public class EmployeeController : ControllerBase
     {
@@ -37,6 +39,8 @@ namespace EmployeeManagement.Controllers
 
         // [SwaggerOperation(
         //  Summary = "Employee Insert", Description = "This API will allow to add employee into system.", OperationId = "")]
+        //[ApiVersion("1.0")]
+        //[MapToApiVersion("1.0")]
         [HttpPost, Route("insert")]
         public async Task<IActionResult> EmployeeInsert([FromQuery] EmployeeInsert employeeInsert)
         {
