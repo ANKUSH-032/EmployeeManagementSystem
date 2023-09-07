@@ -2,6 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/EmployeeDb/EmployeeDb.jfm
-/EmployeeDb/EmployeeDb.dbmdl
-/.vs/EmployeeManagement/FileContentIndex
+/EmployeeDb
+/.vs/EmployeeManagement/FileContentIndex/1bd17f24-a077-4368-b4f3-3bf42f55dd62.vsidx
+/.gitignore
