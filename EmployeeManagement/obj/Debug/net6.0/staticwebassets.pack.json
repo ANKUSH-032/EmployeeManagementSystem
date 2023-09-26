@@ -9,12 +9,28 @@
       "PackagePath": "staticwebassets\\UploadPhoto\\SampleJPGImage_1mbmb.jpg"
     },
     {
+      "Id": "F:\\C#Project\\EMP_API\\EmployeeManagement\\wwwroot\\UploadPhoto\\emp.jpg",
+      "PackagePath": "staticwebassets\\UploadPhoto\\emp.jpg"
+    },
+    {
+      "Id": "F:\\C#Project\\EMP_API\\EmployeeManagement\\wwwroot\\UploadPhoto\\resumepic.jpg",
+      "PackagePath": "staticwebassets\\UploadPhoto\\resumepic.jpg"
+    },
+    {
       "Id": "F:\\C#Project\\EMP_API\\EmployeeManagement\\wwwroot\\UploadSign\\SampleJPGImage.jpg",
       "PackagePath": "staticwebassets\\UploadSign\\SampleJPGImage.jpg"
     },
     {
       "Id": "F:\\C#Project\\EMP_API\\EmployeeManagement\\wwwroot\\UploadSign\\SampleJPGImage_1mbmb.jpg",
       "PackagePath": "staticwebassets\\UploadSign\\SampleJPGImage_1mbmb.jpg"
+    },
+    {
+      "Id": "F:\\C#Project\\EMP_API\\EmployeeManagement\\wwwroot\\UploadSign\\bank.jpg",
+      "PackagePath": "staticwebassets\\UploadSign\\bank.jpg"
+    },
+    {
+      "Id": "F:\\C#Project\\EMP_API\\EmployeeManagement\\wwwroot\\UploadSign\\emp.jpg",
+      "PackagePath": "staticwebassets\\UploadSign\\emp.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.EmployeeManagement.Microsoft.AspNetCore.StaticWebAssets.props",

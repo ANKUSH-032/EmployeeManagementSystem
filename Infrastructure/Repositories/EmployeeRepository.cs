@@ -36,7 +36,7 @@ namespace Infrastructure.Repositories
             employeeInsert.LastName = textInfo.ToTitleCase(employeeInsert.LastName);
             employeeInsert.CompanyName = textInfo.ToTitleCase(employeeInsert.CompanyName);
             employeeInsert.FatherName = textInfo.ToTitleCase(employeeInsert.FatherName);
-            employeeInsert.FatherName = textInfo.ToTitleCase(employeeInsert.MotherName);
+            employeeInsert.MotherName = textInfo.ToTitleCase(employeeInsert.MotherName);
 
             return await _crudOperation.InsertUpdateDelete<Response>(storedProcedureName: "[dbo].[uspEmployeeInsert]", new
             {
@@ -58,8 +58,8 @@ namespace Infrastructure.Repositories
                 employeeInsert.CompanyAddress,
                 employeeInsert.FatherName,
                 employeeInsert.FatherOccupation,
-                employeeInsert.MotherName,
-                employeeInsert.MotherOcupation,
+                MontherName = employeeInsert.MotherName,
+                MontherOcupation =employeeInsert.MotherOcupation,
                 employeeInsert.CurrentExperience,
                 employeeInsert.JoinDate,
                 employeeInsert.DesignationName,
@@ -110,7 +110,7 @@ namespace Infrastructure.Repositories
         }
         public async Task<Response<Employee>> EmployeeGetDetails(EmployeeGetDetails employeeGetDetails)
         {
-            return await _crudOperation.GetSingleRecord<Employee>(storedProcedureName: "[dbo].[uspEmployeeGetDetails]", employeeGetDetails);
+            return await _crudOperation.GetSingleRecord<Employee>(storedProcedureName: "[dbo].[uspEmployeeGetDetails]", new { employeeGetDetails.EmployeeID });
         }
         public async Task<Response> EmployeeDelete(EmployeeDelete employeeDelete)
         {

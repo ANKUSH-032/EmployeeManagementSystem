@@ -1,9 +1,16 @@
 ﻿using Core.Comman;
+using Core.Interface;
+using Core.Model;
 using CORE.Interface;
 using CORE.Model;
+using CrudOperation;
+using DocumentFormat.OpenXml.Wordprocessing;
 using EmployeeGeneric.Helper;
+using Infrastructure.Repositories;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Graph;
+using static EmployeeGeneric.Helper.Utility;
 
 namespace EmployeeManagement.Controllers
 {
@@ -11,26 +18,67 @@ namespace EmployeeManagement.Controllers
     [ApiController]
     public class LeaveController : Controller
     {
+        private readonly IUserRepositroy _userRepository;
         private readonly ILeaveRepository _leaveRepository;
-        public LeaveController(ILeaveRepository leaveRepository)
+        private readonly IEmployeeRepository _employeeRepository;
+        public LeaveController(ILeaveRepository leaveRepository, IEmployeeRepository employeeRepository, IUserRepositroy userRepository)
         {
             _leaveRepository = leaveRepository;
+            _employeeRepository = employeeRepository;
+            _userRepository = userRepository;
         }
 
         [HttpPost, Route("insert")]
         public async Task<IActionResult> LeaveInsert([FromBody] LeaveInsert leaveInsert)
-        {
+            {
             try
             {
+                EmployeeGetDetails employeeGetDetails = new()
+                {
+                    EmployeeID = leaveInsert.EmployeeId
+                };
+                //GetUser getUser = new()
+                //{
+                //    UserId = 
+                //};
+                var employeeDetails = await _employeeRepository.EmployeeGetDetails(employeeGetDetails).ConfigureAwait(false);
+                var employeeData = employeeDetails.Data;
+                //var userDetails = await _userRepository.UserGetDetails(userGetDetails);
+
+                if (!employeeDetails.Status)
+                {
+                    return BadRequest(new
+                    {
+                        Status = false,
+                        employeeDetails.Message
+                    });
+                }
+
                 var res = await _leaveRepository.LeaveInsert(leaveInsert);
-                return res.Status ? StatusCode(StatusCodes.Status201Created, res) : StatusCode(StatusCodes.Status409Conflict, res);
+                if (res.Status)
+                {
+                    EmailData emailData = new()
+                    {
+                        EmailType = EmailType.LEAVEAPPLY,
+                        User = new GetEmployeeFormPDF() { EmailId = employeeData!.EmailId, Name = employeeData!.FirstName + " " + employeeData!.LastName },
+                        Reason = leaveInsert.Reason.ToString(),
+                        FromDate = leaveInsert.FromDate,
+                        ToDate = leaveInsert.ToDate,
+                        JoinDate = employeeData!.JoinDate,  
+                        Subject = "Apply the leave from" + employeeData!.FirstName + " " + employeeData!.LastName
+
+                    };
+
+                    await SendEmailAsync(emailData).ConfigureAwait(false);
+                }
+                return res.Status ? StatusCode(Microsoft.AspNetCore.Http.StatusCodes.Status201Created, res) : StatusCode(Microsoft.AspNetCore.Http.StatusCodes.Status409Conflict, res);
             }
             catch (Exception ex)
             {
                 return StatusCode(CrudOperation.StatusCodes.HTTP_INTERNAL_SERVER_ERROR, ex.Message);
 
             }
-        }   
+        }
 
         [HttpGet]
         public async Task<IActionResult> LeaveGetDetails([FromBody] LeaveGetDetails leaveGetDetails)
@@ -38,7 +86,7 @@ namespace EmployeeManagement.Controllers
             try
             {
                 var res = await _leaveRepository.LeaveGetDetails(leaveGetDetails);
-                return res.Status ? StatusCode(StatusCodes.Status201Created, res) : StatusCode(StatusCodes.Status409Conflict, res);
+                return res.Status ? StatusCode(Microsoft.AspNetCore.Http.StatusCodes.Status201Created, res) : StatusCode(Microsoft.AspNetCore.Http.StatusCodes.Status409Conflict, res);
             }
             catch (Exception ex)
             {
@@ -52,7 +100,7 @@ namespace EmployeeManagement.Controllers
             try
             {
                 var res = await _leaveRepository.LeaveUpdate(leaveUpdate);
-                return res.Status ? StatusCode(StatusCodes.Status201Created, res) : StatusCode(StatusCodes.Status409Conflict, res);
+                return res.Status ? StatusCode(Microsoft.AspNetCore.Http.StatusCodes.Status201Created, res) : StatusCode(Microsoft.AspNetCore.Http.StatusCodes.Status409Conflict, res);
             }
             catch (Exception ex)
             {
@@ -66,7 +114,7 @@ namespace EmployeeManagement.Controllers
             try
             {
                 var res = await _leaveRepository.LeaveDelete(leaveDelete);
-                return res.Status ? StatusCode(StatusCodes.Status201Created, res) : StatusCode(StatusCodes.Status409Conflict, res);
+                return res.Status ? StatusCode(Microsoft.AspNetCore.Http.StatusCodes.Status201Created, res) : StatusCode(Microsoft.AspNetCore.Http.StatusCodes.Status409Conflict, res);
             }
             catch (Exception ex)
             {
@@ -79,14 +127,14 @@ namespace EmployeeManagement.Controllers
         {
             try
             {
-                var res = await _leaveRepository.LeaveGetList(employeeId,leaveGetList);
+                var res = await _leaveRepository.LeaveGetList(employeeId, leaveGetList);
                 if (res.Status && res.Data.Count == 0)
                 {
                     res.RecordsFiltered = 0;
                     res.TotalRecords = 0;
                     return StatusCode(200, res);
                 }
-                return res.Status ? StatusCode(StatusCodes.Status201Created, res) : StatusCode(StatusCodes.Status409Conflict, res);
+                return res.Status ? StatusCode(Microsoft.AspNetCore.Http.StatusCodes.Status201Created, res) : StatusCode(Microsoft.AspNetCore.Http.StatusCodes.Status409Conflict, res);
             }
             catch (Exception ex)
             {

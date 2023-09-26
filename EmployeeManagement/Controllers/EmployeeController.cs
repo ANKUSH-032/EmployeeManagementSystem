@@ -60,7 +60,7 @@ namespace EmployeeManagement.Controllers
                         employeeInsert.AttachmentPhoto.CopyTo(fileStream);
                         fileStream.Flush();
                         // Uplaod path in database
-                        employeeInsert.Photopath = "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeManagement\\wwwroot\\"+ "UploadPhoto" + "\\" /*+ Guid.NewGuid().ToString() + " / "*/ + employeeInsert.AttachmentPhoto.FileName;
+                        employeeInsert.Photopath = "F:\\C#Project\\EMP_API\\EmployeeManagement\\wwwroot\\"+"UploadPhoto" + "\\" /*+ Guid.NewGuid().ToString() + " / "*/ + employeeInsert.AttachmentPhoto.FileName;
 
                     }
                     if (!Directory.Exists(_webHostEnvironment.WebRootPath + "\\UploadSign\\"))
@@ -72,13 +72,15 @@ namespace EmployeeManagement.Controllers
                         employeeInsert.AttachmentSignature.CopyTo(fileStream);
                         fileStream.Flush();
                         // Uplaod path in database
-                        employeeInsert.SignaturePath = "F:\\Projects\\EmployeeManagentSystemTask\\EmployeeTask\\EmployeeManagement\\wwwroot\\"+ "UploadSign" + "\\" /*+ Guid.NewGuid().ToString() + " / "*/ + employeeInsert.AttachmentSignature.FileName;
+                        employeeInsert.SignaturePath = "F:\\C#Project\\EMP_API\\EmployeeManagement\\wwwroot\\"+"UploadSign" + "\\" /*+ Guid.NewGuid().ToString() + " / "*/ + employeeInsert.AttachmentSignature.FileName;
                     }
                     #endregion
+                    employeeInsert.CreatedBy = User.Identity.Name;
                 }
                 var res = await _employeeRepository.EmployeeInsert(employeeInsert);
                 return res.Status ? StatusCode(StatusCodes.Status201Created, res) : StatusCode(StatusCodes.Status409Conflict, res);
             }
+           
             catch (Exception ex)
             {
                 log.Error($"An error occurred in {nameof(EmployeeInsert)} action", ex);

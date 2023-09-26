@@ -5,3 +5,9 @@
 /EmployeeDb
 /.vs/EmployeeManagement/FileContentIndex/1bd17f24-a077-4368-b4f3-3bf42f55dd62.vsidx
 /.gitignore
+/.vs/ProjectEvaluation/employeemanagement.metadata.v5.2
+/.vs/ProjectEvaluation/employeemanagement.projects.v5.2
+/Core/bin/Debug/net6.0/EmployeeGeneric.pdb
+/Core/bin/Debug/net6.0/Core.pdb
+/Core/bin/Debug/net6.0/EmployeeGeneric.dll
+/Core/bin/Debug/net6.0/Core.dll

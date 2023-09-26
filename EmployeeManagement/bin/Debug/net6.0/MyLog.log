@@ -383,3 +383,295 @@ System.InvalidOperationException: The constraint reference 'apiVersion' could no
 2023-09-07 18:24:41,413 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
 2023-09-07 18:24:41,441 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
 2023-09-07 18:24:41,453 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-17 20:33:15,390 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-17 20:33:15,500 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-17 20:33:15,506 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-17 20:33:15,510 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-19 00:39:20,975 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-19 00:39:21,080 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-19 00:39:21,085 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-19 00:39:21,089 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-19 20:12:02,847 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-19 20:12:02,902 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-19 20:12:02,906 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-19 20:12:02,910 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-19 20:40:36,937 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-19 20:40:37,023 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-19 20:40:37,026 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-19 20:40:37,030 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-19 22:34:57,244 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-19 22:34:57,315 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-19 22:34:57,320 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-19 22:34:57,348 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-19 22:50:58,863 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-19 22:50:58,945 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-19 22:50:58,950 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-19 22:50:58,956 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-19 22:53:04,721 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-19 22:53:06,061 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-19 22:53:06,877 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-19 22:53:08,576 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-22 01:58:52,760 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-22 01:58:52,870 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-22 01:58:52,922 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-22 01:58:52,935 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 16:14:13,100 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 16:14:13,162 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 16:14:13,167 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 16:14:13,181 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 16:27:53,151 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 16:27:53,216 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 16:27:53,239 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 16:27:53,245 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 16:34:16,303 [20] ERROR EmployeeManagement.Controllers.AuthController - An error occurred in EmployeeInsert action
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function uspEmployeeInsert has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1066
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1187
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 774
+   at CrudOperation.CrudOperationDataAccess.InsertUpdateDelete[T](String storedProcedureName, Object spParamsPocoMapper) in F:\C#Project\EMP_API\CrudOperation\CrudOperationDataAccess.cs:line 164
+   at Infrastructure.Repositories.EmployeeRepository.EmployeeInsert(EmployeeInsert employeeInsert) in F:\C#Project\EMP_API\Infrastructure\Repositories\EmployeeRepository.cs:line 41
+   at EmployeeManagement.Controllers.EmployeeController.EmployeeInsert(EmployeeInsert employeeInsert) in F:\C#Project\EMP_API\EmployeeManagement\Controllers\EmployeeController.cs:line 80
+ClientConnectionId:35c6aaaa-bb29-491f-aaef-02586b4f23be
+Error Number:8144,State:2,Class:16
+2023-09-24 16:35:23,742 [23] ERROR EmployeeManagement.Controllers.AuthController - An error occurred in EmployeeInsert action
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function uspEmployeeInsert has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1066
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1187
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 774
+   at CrudOperation.CrudOperationDataAccess.InsertUpdateDelete[T](String storedProcedureName, Object spParamsPocoMapper) in F:\C#Project\EMP_API\CrudOperation\CrudOperationDataAccess.cs:line 164
+   at Infrastructure.Repositories.EmployeeRepository.EmployeeInsert(EmployeeInsert employeeInsert) in F:\C#Project\EMP_API\Infrastructure\Repositories\EmployeeRepository.cs:line 41
+   at EmployeeManagement.Controllers.EmployeeController.EmployeeInsert(EmployeeInsert employeeInsert) in F:\C#Project\EMP_API\EmployeeManagement\Controllers\EmployeeController.cs:line 80
+ClientConnectionId:35c6aaaa-bb29-491f-aaef-02586b4f23be
+Error Number:8144,State:2,Class:16
+2023-09-24 16:45:36,957 [23] ERROR EmployeeManagement.Controllers.AuthController - An error occurred in EmployeeInsert action
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'uspEmployeeInsert' expects parameter '@MontherName', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1066
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1187
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 774
+   at CrudOperation.CrudOperationDataAccess.InsertUpdateDelete[T](String storedProcedureName, Object spParamsPocoMapper) in F:\C#Project\EMP_API\CrudOperation\CrudOperationDataAccess.cs:line 164
+   at Infrastructure.Repositories.EmployeeRepository.EmployeeInsert(EmployeeInsert employeeInsert) in F:\C#Project\EMP_API\Infrastructure\Repositories\EmployeeRepository.cs:line 41
+   at EmployeeManagement.Controllers.EmployeeController.EmployeeInsert(EmployeeInsert employeeInsert) in F:\C#Project\EMP_API\EmployeeManagement\Controllers\EmployeeController.cs:line 80
+ClientConnectionId:52f6173b-968c-4f12-b484-8ebc68fe3cc7
+Error Number:201,State:4,Class:16
+2023-09-24 16:46:19,088 [26] ERROR EmployeeManagement.Controllers.AuthController - An error occurred in EmployeeInsert action
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'uspEmployeeInsert' expects parameter '@MontherName', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1066
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1187
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 774
+   at CrudOperation.CrudOperationDataAccess.InsertUpdateDelete[T](String storedProcedureName, Object spParamsPocoMapper) in F:\C#Project\EMP_API\CrudOperation\CrudOperationDataAccess.cs:line 164
+   at Infrastructure.Repositories.EmployeeRepository.EmployeeInsert(EmployeeInsert employeeInsert) in F:\C#Project\EMP_API\Infrastructure\Repositories\EmployeeRepository.cs:line 41
+   at EmployeeManagement.Controllers.EmployeeController.EmployeeInsert(EmployeeInsert employeeInsert) in F:\C#Project\EMP_API\EmployeeManagement\Controllers\EmployeeController.cs:line 80
+ClientConnectionId:52f6173b-968c-4f12-b484-8ebc68fe3cc7
+Error Number:201,State:4,Class:16
+2023-09-24 16:46:52,219 [48] ERROR EmployeeManagement.Controllers.AuthController - An error occurred in EmployeeInsert action
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'uspEmployeeInsert' expects parameter '@MontherName', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1066
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1187
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 774
+   at CrudOperation.CrudOperationDataAccess.InsertUpdateDelete[T](String storedProcedureName, Object spParamsPocoMapper) in F:\C#Project\EMP_API\CrudOperation\CrudOperationDataAccess.cs:line 164
+   at Infrastructure.Repositories.EmployeeRepository.EmployeeInsert(EmployeeInsert employeeInsert)
+   at EmployeeManagement.Controllers.EmployeeController.EmployeeInsert(EmployeeInsert employeeInsert) in F:\C#Project\EMP_API\EmployeeManagement\Controllers\EmployeeController.cs:line 80
+ClientConnectionId:52f6173b-968c-4f12-b484-8ebc68fe3cc7
+Error Number:201,State:4,Class:16
+2023-09-24 16:52:20,551 [24] ERROR EmployeeManagement.Controllers.AuthController - An error occurred in EmployeeInsert action
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'uspEmployeeInsert' expects parameter '@MontherName', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1066
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1187
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 774
+   at CrudOperation.CrudOperationDataAccess.InsertUpdateDelete[T](String storedProcedureName, Object spParamsPocoMapper) in F:\C#Project\EMP_API\CrudOperation\CrudOperationDataAccess.cs:line 164
+   at Infrastructure.Repositories.EmployeeRepository.EmployeeInsert(EmployeeInsert employeeInsert)
+   at EmployeeManagement.Controllers.EmployeeController.EmployeeInsert(EmployeeInsert employeeInsert) in F:\C#Project\EMP_API\EmployeeManagement\Controllers\EmployeeController.cs:line 80
+ClientConnectionId:52f6173b-968c-4f12-b484-8ebc68fe3cc7
+Error Number:201,State:4,Class:16
+2023-09-24 16:54:40,648 [15] ERROR EmployeeManagement.Controllers.AuthController - An error occurred in EmployeeInsert action
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'uspEmployeeInsert' expects parameter '@MontherName', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1066
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1187
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 774
+   at CrudOperation.CrudOperationDataAccess.InsertUpdateDelete[T](String storedProcedureName, Object spParamsPocoMapper) in F:\C#Project\EMP_API\CrudOperation\CrudOperationDataAccess.cs:line 164
+   at Infrastructure.Repositories.EmployeeRepository.EmployeeInsert(EmployeeInsert employeeInsert)
+   at EmployeeManagement.Controllers.EmployeeController.EmployeeInsert(EmployeeInsert employeeInsert) in F:\C#Project\EMP_API\EmployeeManagement\Controllers\EmployeeController.cs:line 80
+ClientConnectionId:52f6173b-968c-4f12-b484-8ebc68fe3cc7
+Error Number:201,State:4,Class:16
+2023-09-24 16:55:35,855 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 16:55:35,900 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 16:55:35,916 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 16:55:35,920 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 17:01:02,884 [8] ERROR EmployeeManagement.Controllers.AuthController - An error occurred in EmployeeInsert action
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'uspEmployeeInsert' expects parameter '@MontherOcupation', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1066
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1187
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 774
+   at CrudOperation.CrudOperationDataAccess.InsertUpdateDelete[T](String storedProcedureName, Object spParamsPocoMapper) in F:\C#Project\EMP_API\CrudOperation\CrudOperationDataAccess.cs:line 164
+   at Infrastructure.Repositories.EmployeeRepository.EmployeeInsert(EmployeeInsert employeeInsert) in F:\C#Project\EMP_API\Infrastructure\Repositories\EmployeeRepository.cs:line 41
+   at EmployeeManagement.Controllers.EmployeeController.EmployeeInsert(EmployeeInsert employeeInsert) in F:\C#Project\EMP_API\EmployeeManagement\Controllers\EmployeeController.cs:line 80
+ClientConnectionId:06cb9b9c-8324-4235-b4c4-1980e5d0ded8
+Error Number:201,State:4,Class:16
+2023-09-24 17:02:12,144 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 17:02:12,183 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 17:02:12,192 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 17:02:12,197 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 17:37:43,789 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 17:37:43,871 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 17:37:43,882 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 17:37:43,895 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 17:47:39,496 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 17:47:39,543 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 17:47:39,571 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 17:47:39,575 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 17:56:21,402 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 17:56:21,647 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 17:56:21,680 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 17:56:21,686 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 17:57:19,524 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 17:57:19,562 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 17:57:19,578 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 17:57:19,584 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 18:03:12,723 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 18:03:12,763 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 18:03:12,775 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 18:03:12,780 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 18:07:45,909 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 18:07:45,951 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 18:07:45,956 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 18:07:45,963 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 18:09:06,083 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 18:09:06,142 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 18:09:06,147 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 18:09:06,153 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 18:12:13,904 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 18:12:13,943 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 18:12:13,993 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 18:12:13,998 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 18:18:49,917 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 18:18:49,956 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 18:18:49,969 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 18:18:49,973 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 18:27:02,773 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 18:27:02,841 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 18:27:02,848 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 18:27:02,852 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 18:36:37,824 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 18:36:37,923 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 18:36:37,967 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 18:36:38,036 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 18:43:32,628 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 18:43:32,663 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 18:43:32,676 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 18:43:32,690 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 18:48:42,214 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 18:48:42,252 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 18:48:42,265 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 18:48:42,279 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 18:50:49,686 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 18:50:49,747 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 18:50:49,752 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 18:50:49,761 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 18:52:49,284 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 18:52:49,328 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 18:52:49,346 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 18:52:49,354 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 18:53:56,780 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 18:53:56,826 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 18:53:56,833 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 18:53:56,844 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 19:00:26,292 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 19:00:26,332 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 19:00:26,356 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 19:00:26,384 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 19:06:10,946 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 19:06:11,149 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 19:06:11,155 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 19:06:11,162 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 19:13:21,540 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 19:13:21,579 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 19:13:21,595 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 19:13:21,599 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 19:17:54,108 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 19:17:54,148 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 19:17:54,162 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 19:17:54,168 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 19:19:41,522 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 19:19:41,616 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 19:19:41,648 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 19:19:41,676 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 19:20:57,040 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 19:20:57,140 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 19:20:57,169 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 19:20:57,173 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\
+2023-09-24 19:23:10,146 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5178
+2023-09-24 19:23:10,208 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-09-24 19:23:10,215 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-09-24 19:23:10,219 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\C#Project\EMP_API\EmployeeManagement\

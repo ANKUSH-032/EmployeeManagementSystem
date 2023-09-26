@@ -2,6 +2,7 @@
 
 using Dapper;
 using Microsoft.Extensions.Configuration;
+using System.ComponentModel.DataAnnotations;
 using System.Data;
 using System.Data.SqlClient;
 using System.Globalization;
@@ -27,7 +28,7 @@ namespace EmployeeGeneric.Helper
         private static readonly string? _password = string.Empty;
         private static readonly string? _from = string.Empty;
         private static readonly string? _loginUrl = string.Empty;
-                                      
+
         private static readonly string? _forgetUrl = string.Empty;
         private static readonly string? _createUrl = string.Empty;
 
@@ -90,7 +91,7 @@ namespace EmployeeGeneric.Helper
 
         public static DataTable ConvertToDataTable<T>(List<T> items)
         {
-            DataTable dataTable = new (typeof(T).Name);
+            DataTable dataTable = new(typeof(T).Name);
 
             //Get all the properties
             PropertyInfo[] Props = typeof(T).GetProperties(BindingFlags.Public | BindingFlags.Instance);
@@ -132,7 +133,8 @@ namespace EmployeeGeneric.Helper
             //SIGNUP = 5,
             SIGNUPWITHPASSWORD = 6,
             // cHANGES
-            CREATEPASSWORD = 7
+            CREATEPASSWORD = 7,
+            LEAVEAPPLY = 8
         }
 
         public static async Task SendEmailAsync(EmailData emailData)
@@ -187,6 +189,16 @@ namespace EmployeeGeneric.Helper
                     Replace("{{CurrentYear}}", Convert.ToString(DateTime.Now.Year, CultureInfo.InvariantCulture), StringComparison.InvariantCulture);
                     break;
 
+                case EmailType.LEAVEAPPLY:
+                    body = GetEmailContent("LEAVEAPPLY")
+                        .Replace("{{FullNamePlaceholder}}", !string.IsNullOrEmpty(emailData.User?.Name) ? emailData.User?.Name : string.Empty)
+                        .Replace("{{FromDatePlaceholder}}", emailData.FromDate.ToString(), StringComparison.InvariantCulture)
+                        .Replace("{{ToDatePlaceholder}}", emailData.ToDate.ToString(), StringComparison.InvariantCulture)
+                        .Replace("{{ReasonPlaceholder}}", emailData.Reason.ToString(), StringComparison.InvariantCulture)
+                        .Replace("{{JoinDatePlaceholder}}", emailData.JoinDate.ToString(), StringComparison.InvariantCulture);
+                    break;
+
+
 
                 //case EmailType.SIGNUP:
                 //    body = GetEmailContent("SignUp")
@@ -203,7 +215,7 @@ namespace EmployeeGeneric.Helper
 
             if (!string.IsNullOrEmpty(body))
             {
-                await SendEmail(emailData.User?.Email, emailData.Subject, body, true).ConfigureAwait(false);
+                await SendEmail(emailData.User?.EmailId, emailData.Subject, body, true).ConfigureAwait(false);
             }
         }
 
@@ -368,6 +380,11 @@ namespace EmployeeGeneric.Helper
             public string? Message { get; set; } = "";
             public string? Header { get; set; } = "";
             public string? CreatePwdLink { get; set; }
+            public string? FromDate { get; set; }
+            public string? Reason { get; set; }
+            public int? LeaveType { get; set; }
+            public string? ToDate { get; set; }
+            public DateTime JoinDate { get; set; }
         }
     }
 }
